@@ -4,7 +4,7 @@
 
 ## Introduction
 
-In the National Museum of Colombo there rests one of the oldest, and arguably most important, Pali manuscripts found anywhere in the world. It contains the Cullavagga, which consists of chapters 11–22 of the *Khandhaka* portion of the Pali Vinaya. The colophon in the manuscript states that it was copied during the reign of Parākramabāhu II, which would place it in the 13th century. Since almost all our current sources for Pali texts date from manuscripts of the 18th and 19th centuries, it is imperative that the Cullavagga text be digitally preserved and transcribed. In this project outline I set forth a proposal for how to accomplish this.
+In the National Museum of Colombo there rests one of the oldest, and arguably most important, Pali manuscripts found anywhere in the world. It contains the Cullavagga, which consists of chapters 11–22 of the *Khandhaka* portion of the Pali Vinaya. The colophon in the manuscript says that it was copied during the reign of Parākramabāhu II, which would place it in the 13th century. Since almost all our current sources for Pali texts date from manuscripts of the 18th and 19th centuries, it is imperative that the Cullavagga text be digitally preserved and transcribed. In this project outline I set forth a proposal for how to accomplish this.
 
 The aim of the project is to make available to scholars internationally the contents of this work for research. We propose a comprehensive approach to preparing a digital text. This will include the following items:
 
