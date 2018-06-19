@@ -1,0 +1,18 @@
+graph TD;
+    A(Assemble team)-->B(Obtain permissions);
+    B(Obtain permissions)-->C(Assess manuscript);
+    C(Assess manuscript)-->D(Scan manuscript);
+    C(Assess manuscript)-->E(Carbon dating);
+    D(Scan manuscript)-->F(Epigraphic assessment);
+    D(Scan manuscript)-->G(Typing);
+    G(Typing)-->H(Proofreading);
+    H(Proofreading)-->I(Digital publication);
+    H(Proofreading)-->J(Print publication);
+    E(Carbon dating)-->K(Academic documentation);
+    F(Epigraphic assessment)-->K(Academic documentation);
+    I(Digital publication)-->K(Academic documentation);
+    J(Print publication)-->K(Academic documentation);
+    E(Carbon dating)-->L(Publicity and popular awareness);
+    F(Epigraphic assessment)-->L(Publicity and popular awareness);
+    I(Digital publication)-->L(Publicity and popular awareness);
+    J(Print publication)-->L(Publicity and popular awareness);
