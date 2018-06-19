@@ -132,7 +132,8 @@ In 2007, radiocarbon dating of Gāndhāri manuscripts in Kharoṣṭhī script p
 
 I propose that we carbon date the DB CV, with the aim to confirm or refute the ascription of the manuscript to the 13th century. Together with the colophon and the epigraphic assessment, this will provide a solid basis for dating the manuscript.
 
-The commercial cost of carbon dating is about US $500–$1000, so it is not prohibitive. One possible location to use is the Australian Nuclear Science and Technology Organisation (ANSTO) at Lucas heights, who have done the carbon dating for Gandhari manuscripts, organized by Mark Allon. There is a good possibility that testing can be done here under a grant program that would cover the cost.
+The commercial cost of carbon dating is about US $500–$1000, so it is not prohibitive. One possible location to use is the [Australian Nuclear Science and Technology Organisation (ANSTO)](http://www.ansto.gov.au/ResearchHub/OurInfrastructure/acceleratorsciencecentre/Radiocarbondating/index.htm) at Lucas heights, who have done the carbon dating for Gandhari manuscripts, organized by Mark Allon. There is a good possibility that testing can be done here under a grant program that would cover the cost.
+
 
    - **Responsible party:** Department of Archaeology, possibly together with Mark Allon at Sydney University through ANSTO.
 
