@@ -4,7 +4,11 @@
 
 ## Introduction
 
-In the National Museum of Colombo there rests one of the oldest, and arguably most important, Pali manuscripts found anywhere in the world. It contains the Cullavagga, which consists of chapters 11–22 of the *Khandhaka* portion of the Pali Vinaya. The colophon in the manuscript says that it was copied during the reign of Parākramabāhu II, which would place it in the 13th century. Since almost all our current sources for Pali texts date from manuscripts of the 18th and 19th centuries, it is imperative that the Cullavagga text be digitally preserved and transcribed. In this project outline I set forth a proposal for how to accomplish this.
+In the National Museum of Colombo there rests one of the oldest, and arguably most important, Pali manuscripts found anywhere in the world. It contains the Cullavagga, which consists of chapters 11–22 of the *Khandhaka* portion of the Pali Vinaya.
+
+The sign accompanying the exhibit identifies it as object number NM-2995 69L1. The manuscript consists of 143 palm leaves in good preservation. It was acquired by the National Museum on the recommendation of Senarath Paranavitana. The cover of the book is wood painted with depictions of deities, in a style similar to those of the Polonnaruva period. For further details one is referred to H.C.R. Bell, Annual Report 1901, Department of Archaeology.
+
+The colophon in the manuscript says that it was copied during the reign of Parākramabāhu II, which would place it in the 13th century. Since almost all our current sources for Pali texts date from manuscripts of the 18th and 19th centuries, it is imperative that the Cullavagga text be digitally preserved and transcribed. In this project outline I set forth a proposal for how to accomplish this.
 
 The aim of the project is to make available to scholars internationally the contents of this work for research. We propose a comprehensive approach to preparing a digital text. This will include the following items:
 
@@ -66,6 +70,16 @@ While we are not prepared to undertake the more wide-scale digital preservation 
 One of the few early Pali texts in existence was studied and published by Oskar von Hinuber in his *The Oldest Buddhist Manuscript*. This offers a transcription, description, and detailed study of a 8th–9th century Pali manuscript from Nepal by a leading Indological philologist. Von Hinuber suggests that it may have derived from a branch monastery of the Mahāvihāra on the mainland, possibly at Bodhgaya. As it happens, the text itself, while only a few pages, is from the Cullavagga. Thus it is a small portion of the same text found in the DP CV, and when the DP CV is published it will enable a study of the  same passage in manuscripts of the 8th, 13th, and 18th centuries.
 
 When reading Pali texts in modern editions, it is quite evident that a process that might loosely be called “Sanskritization” has taken place, particularly in editions from Burma. We frequently see spelling variations even in common words, such as *supaṭipanna* vs. *suppaṭipanna*, *viriya* vs. *vīriya*, or *byākaraṇa* vs. *vyākaraṇa*. It is generally believed that this process occurred under the influence of medieval grammars such as the Saddanīti, which were based on the Sanskrit grammars. In most cases the spelling variants are inconsequential, and no more affect the meaning than, say, the choice to use UK or American spelling for English. Nevertheless, there are some cases where variant readings can affect the meaning of a passage. Thus it is important for scholars to study the nature of these changes, which can only be rigorously understood through studying early manuscripts or inscriptions.
+
+## Literature Review
+
+This manuscript has been mentioned a number of times in published articles.
+
+The initial report of the discovery is said (in the sign on the exhibit) to have been posted by H.C.R. Bell in the Department of Archaeology’s Annual Report of 1901. Unfortunately, this edition of the Report does not seem to be available online. We should ascertain whether a copy of this Report exists at the Department, and if possible have it scanned and uploaded. {A microfilm copy may be available for viewing at the [National Gallery of Australia Research Library](https://trove.nla.gov.au/work/8639753). However this apparently includes plates only, so it may well be useless for our purpose.}
+
+The manuscript is discussed in Fernando, P. E. E. 1982. <cite>“A Note on Three Old Sinhalese Palm Leaf manuscripts”</cite> The Sri Lanka Journal of the Humanities 8, no. 1/2: 146–157.
+
+The manuscript is discussed, drawing from Fernando, by Bhikkhu Ñāṇatusita in <cite>“Pali Manuscripts of Sri Lanka”</cite>, included in <cite>From Birch Bark to Digital Data: Recent Advances in Buddhist Manuscript Research</cite>. Papers Presented at the Conference “Indic Buddhist Manuscripts: The State of the Field”, Stanford, June 15–19, 2009, edited by Paul Harrison and Jens-Uwe Hartmann, and published by Österreichische Akademie der Wissenschaften Wien in 2014.
 
 ## Who is involved
 
@@ -199,9 +213,9 @@ Many of these tasks are of intrinsic value, even if later tasks are not complete
 
 While it is obvious that we live in a digital age, and the primary product of our work is digital media, it is still rare in the humanities to find a considered appreciation of how to go about a digital project.
 
-Consider our source manuscript. It tells us it was copied by Sumedha Mahāthera on the instructions of the Medhaṅkara Mahāsāmi as part of a donation of giving one book to each monk in Sri Lanka with the patronage of King Parākramabāhu.
+Consider our source manuscript. It tells us it was copied by Sumedha Mahāthera on the instructions of the Medhaṅkara Mahāsāmi as part of a donation of giving one book to each monk in Sri Lanka with the patronage of King Parākramabāhu II. This is, at least, according to the account given by Nyanatusita (p. 369), following Fernando. {Fernando, P. E. E. 1982. “A Note on Three Old Sinhalese Palm Leaf manuscripts,” The Sri Lanka Journal of the Humanities 8, no. 1/2: 146–157} The sign on the exhibit in the National Museum, however, says it was copied by Medhaṅkara Thera of Beligala under the patronage of Parākramabāhu II. Nyanatusita describes the colophon as "cryptic".
 
-Now consider our digital texts. Who were they typed by? Who authorized them? Who sponsored them? What was the process by which the work was done? In most cases, we know none of these things. The texts are produced, vaguely ascribed to an institution, and published in a digital form with little or nothing to tell us how they were made. We have better information about a 13th century manuscript than we do about most of our digital texts.
+Now consider, for example, the Mahāsaṅgīti edition of the Pali canon, which is the digital text used by SuttaCentral. Who was this typed by? Who organized and checked the work? Who was the sponsor? What was the method by which the work was done? We know none of these things. The texts are produced, vaguely ascribed to an institution, and published in a digital form with little or nothing to tell us how they were made. We have better information about a 13th century manuscript than we do about most of our digital texts.
 
 As a result of poor digital management strategies, it is unfortunately common for years of work to be lost. The Pali text used on SuttaCentral, for example, was rescued from a project by the Dhamma Society of Bangkok. Sadly, the parent organization fell apart and their online presence disappeared. The text, to which they had devoted years of proofing and preparing, vanished. It was only by sheer luck that we located a source that had been copied by a monk. In another case, years of work annotating and preparing a digital version of a Pali dictionary in a German University was permanently lost, as the IT manager resigned and left without sharing the passwords. Prof Lewis Lancaster's article "Digital Input of Buddhist Texts" contains several more such sad stories of work gone to waste.
 
