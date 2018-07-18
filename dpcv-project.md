@@ -31,7 +31,7 @@ So far as I know, the manuscript in question has not become known by any accepte
 
 Since the manuscript is said to have been sponsored by King Parākramabāhu II, it seems sensible to name it after him. The Pali term would be Dutiya-Parakkamabāhu. (See [Dīpavaṁsa II 37.84](http://gretil.sub.uni-goettingen.de/gretil/2_pali/3_chron/dipav_2u.htm) *dutiya-parakkamabhuja*.) Thus I propose the following:
 
-- **The manuscript be named the “Dutiya-Parakkamabāhu Cullavagga”, with the acronym DP CV, or `dpcv` for programming contexts.**
+- **The manuscript be named the “Dutiya-Parakkamabāhu Cullavagga”, with the acronym DP-CV, or `dp-cv` for programming contexts.**
 
 <small>Note that, while the Sanskritic form *parākramabāhu* has become standard, in the Pali chronicles it appears as *parakkamabāhu* (or *parakkamabbāhu*). However, in texts such as the [Dīpamavamsa II](http://gretil.sub.uni-goettingen.de/gretil/2_pali/3_chron/dipav_2u.htm) and the [Mahāvaṁsa](http://gretil.sub.uni-goettingen.de/gretil/2_pali/3_chron/mahava_u.htm) the form *parakkamabhuja* is more common. *Bāhu* and *bhuja* are synonyms, both meaning “arm”. In the Mahāvaṁsa, for example, *parakkamabāhu* appears once only, while *parakkamabhuja* occurs 56 times. Until it is edited, of course, we cannot say what form is used in the manuscript itself. The Sanskritic drift of the king’s name is, aptly enough, an example of the kind of problem that we wish to address through studying this manuscript.</small>
 
@@ -65,9 +65,9 @@ A further problem is that almost all the Sri Lankan manuscripts stem from texts 
 
 >Given the widespread neglect of collections, the general lack of interest in the preservation of and research into palm-leaf manuscripts in Sri Lanka, and often the considerable difficulty in getting access to collections, it is important that an international project is undertaken to preserve manuscripts by way of digitally photographing or scanning. This should be done in cooperation with Sri Lankan institutes such as the National Archives, universities, and a well-known international institute such as UNESCO, which already manages some important historical sites in Sri Lanka. The digital photographs should not be stored in just one institution, where they might be lost, as happened with the microfilms at the National Archives, but should be made freely available on the internet so that any scholar can access them. Also detailed information (description, history, photographs, list of manuscripts) should be given about the monasteries where the manuscripts were photographed.
 
-While we are not prepared to undertake the more wide-scale digital preservation envisaged by Bhikkhu Ñāṇatusita, by preserving and published DP CV we can, perhaps, stimulate interest and further action.
+While we are not prepared to undertake the more wide-scale digital preservation envisaged by Bhikkhu Ñāṇatusita, by preserving and published DP-CV we can, perhaps, stimulate interest and further action.
 
-One of the few early Pali texts in existence was studied and published by Oskar von Hinuber in his *The Oldest Buddhist Manuscript*. This offers a transcription, description, and detailed study of a 8th–9th century Pali manuscript from Nepal by a leading Indological philologist. Von Hinuber suggests that it may have derived from a branch monastery of the Mahāvihāra on the mainland, possibly at Bodhgaya. As it happens, the text itself, while only a few pages, is from the Cullavagga. Thus it is a small portion of the same text found in the DP CV, and when the DP CV is published it will enable a study of the  same passage in manuscripts of the 8th, 13th, and 18th centuries.
+One of the few early Pali texts in existence was studied and published by Oskar von Hinüber in his *The Oldest Buddhist Manuscript*. This offers a transcription, description, and detailed study of a 8th–9th century Pali manuscript from Nepal by a leading Indological philologist. Von Hinüber suggests that it may have derived from a branch monastery of the Mahāvihāra on the mainland, possibly at Bodhgaya. As it happens, the text itself, while only a few pages, is from the Cullavagga. Thus it is a small portion of the same text found in the DP-CV, and when the DP-CV is published it will enable a study of the  same passage in manuscripts of the 8th, 13th, and 18th centuries. SuttaCentral has completed a digitization of this text, which [you can view here](https://github.com/sujato/bendall-cv). This was intended as a pilot project to text and demonstrate some of the methods we are proposing for DC-CV.
 
 When reading Pali texts in modern editions, it is quite evident that a process that might loosely be called “Sanskritization” has taken place, particularly in editions from Burma. We frequently see spelling variations even in common words, such as *supaṭipanna* vs. *suppaṭipanna*, *viriya* vs. *vīriya*, or *byākaraṇa* vs. *vyākaraṇa*. It is generally believed that this process occurred under the influence of medieval grammars such as the Saddanīti, which were based on the Sanskrit grammars. In most cases the spelling variants are inconsequential, and no more affect the meaning than, say, the choice to use UK or American spelling for English. Nevertheless, there are some cases where variant readings can affect the meaning of a passage. Thus it is important for scholars to study the nature of these changes, which can only be rigorously understood through studying early manuscripts or inscriptions.
 
@@ -95,6 +95,14 @@ A project such as this requires a variety of specialized technical skills and eq
    - Ven. Prof. Medagoda Abhayatissa has lent his support to the project in recognition of its importance for Pali studies.
 5. **Bhante Sujato of SuttaCentral**
    - The author of this document! I have a special interest in the digital aspects of the project, due to my extensive experience managing digital texts for suttacentral.net.
+6. **Heshan Karunaratne**
+  - IT support
+7. **Yalith Wijesurendra**
+  - Project coordinator
+
+## Funding
+
+So far we have not discussed or investigated the question of funding this project. SuttaCentral would be happy to contribute through raising funds from our donors. Mark Allon has indicated that it may be possible to secure funding in Australia for the carbon dating.
 
 ## How to proceed
 
@@ -122,7 +130,7 @@ The manuscript must be scanned carefully, using good quality modern equipment, a
 
 The images must be saved in as high resolution as practical. The basic image format must be lossless, which rules out `jpeg`. Ideally the base format would be `tiff`, but `png`, which uses lossless compression, is probably a better option, since the file sizes are much smaller.
 
-The images must be saved using a sensible naming system. Since there is only one manuscript, I propose that we use a simple increment to number the pages, adding “r” and “v” for *recto* and *verso* as needed. Thus the images for the first leaf of the manuscript would be named `dpcv-1r` and `dpcv-1v` and so on. This might seem like a trivial detail, but maintaining a clear and consistent naming convention from the start can avoid a lot of headaches later on.
+The images must be saved using a sensible naming system. Since there is only one manuscript, I propose that we use a simple increment to number the pages, adding “r” and “v” for *recto* and *verso* as needed. Thus the images for the first leaf of the manuscript would be named `dp-cv-1r` and `dp-cv-1v` and so on. This might seem like a trivial detail, but maintaining a clear and consistent naming convention from the start can avoid a lot of headaches later on.
 
 In addition to scanning the images, it would be advisable to also print a few sets of images. These should be printed professionally, with high resolution on good quality paper using ring binding or similar. Such printed copies, which need not be great in number, would be useful for typists, rather than having to look at a screen; and in addition, print is a more lasting media than digital.
 
@@ -144,7 +152,7 @@ As noted above, there is at present no reason to doubt the dating of the manuscr
 
 In 2007, radiocarbon dating of Gāndhāri manuscripts in Kharoṣṭhī script placed the oldest of them around 75 CE, making them the oldest extant Indian manuscripts. This project, as well as giving a firm historical context, attracted a great deal of publicity, raising the profile of Buddhist manuscript study. {Allon, M., Salomon, R., Jacobsen, G., Zoppi, U. (2007). Radiocarbon Dating of Kharosthi Fragments from the Schoyen and Senior Manuscript Collections. In Jens Braarvig (Eds.), BUDDHIST MANUSCRIPTS IN THE SCHØYEN COLLECTION vol. III, (pp. 279-291). Oslo, Norway: Hermes Publishing.}
 
-I propose that we carbon date the DB CV, with the aim to confirm or refute the ascription of the manuscript to the 13th century. Together with the colophon and the epigraphic assessment, this will provide a solid basis for dating the manuscript.
+I propose that we carbon date the DP-CV, with the aim to confirm or refute the ascription of the manuscript to the 13th century. Together with the colophon and the epigraphic assessment, this will provide a solid basis for dating the manuscript.
 
 The commercial cost of carbon dating is about US $500–$1000, so it is not prohibitive. One possible location to use is the [Australian Nuclear Science and Technology Organisation (ANSTO)](http://www.ansto.gov.au/ResearchHub/OurInfrastructure/acceleratorsciencecentre/Radiocarbondating/index.htm) at Lucas heights, who have done the carbon dating for Gandhari manuscripts, organized by Mark Allon. There is a good possibility that testing can be done here under a grant program that would cover the cost.
 
@@ -153,7 +161,7 @@ The commercial cost of carbon dating is about US $500–$1000, so it is not proh
 
 ### Have the manuscript typed and proofread
 
-This is the most critical part of the project, and the one that will take the most time and attention. It is crucial that the manuscript be typed with the utmost fidelity. The typists must avoid any temptation to reconcile or correct the readings. It is precisely the differences between DB CV and modern texts that is of interest.
+This is the most critical part of the project, and the one that will take the most time and attention. It is crucial that the manuscript be typed with the utmost fidelity. The typists must avoid any temptation to reconcile or correct the readings. It is precisely the differences between DP-CV and modern texts that is of interest.
 
 In typing, it is not necessary to know the language. In fact, familiarity with Pali may be a disadvantage, as it may shape the typists’ perceptions and expectations. Thus I propose:
 
@@ -213,19 +221,19 @@ Many of these tasks are of intrinsic value, even if later tasks are not complete
 
 While it is obvious that we live in a digital age, and the primary product of our work is digital media, it is still rare in the humanities to find a considered appreciation of how to go about a digital project.
 
-Consider our source manuscript. It tells us it was copied by Sumedha Mahāthera on the instructions of the Medhaṅkara Mahāsāmi as part of a donation of giving one book to each monk in Sri Lanka with the patronage of King Parākramabāhu II. This is, at least, according to the account given by Nyanatusita (p. 369), following Fernando. {Fernando, P. E. E. 1982. “A Note on Three Old Sinhalese Palm Leaf manuscripts,” The Sri Lanka Journal of the Humanities 8, no. 1/2: 146–157} The sign on the exhibit in the National Museum, however, says it was copied by Medhaṅkara Thera of Beligala under the patronage of Parākramabāhu II. Nyanatusita describes the colophon as "cryptic".
+Consider our source manuscript. It tells us it was copied by Sumedha Mahāthera on the instructions of the Medhaṅkara Mahāsāmi as part of a donation of giving one book to each monk in Sri Lanka with the patronage of King Parākramabāhu II. {Nyanatusita p. 369, following Fernando. Fernando, P. E. E. 1982. “A Note on Three Old Sinhalese Palm Leaf manuscripts,” The Sri Lanka Journal of the Humanities 8, no. 1/2: 146–157.}
 
-Now consider, for example, the Mahāsaṅgīti edition of the Pali canon, which is the digital text used by SuttaCentral. Who was this typed by? Who organized and checked the work? Who was the sponsor? What was the method by which the work was done? We know none of these things. The texts are produced, vaguely ascribed to an institution, and published in a digital form with little or nothing to tell us how they were made. We have better information about a 13th century manuscript than we do about most of our digital texts.
+Now consider the state of many of our digital texts. Who were they typed by? Who organized and checked the work? Who was the sponsor? What was the method by which the work was done? We often know none of these things. The texts are produced, ascribed to an institution, and published in a digital form with little or nothing to tell us how they were made. We have better information about a 13th century manuscript than we do about most of our digital texts.
 
-As a result of poor digital management strategies, it is unfortunately common for years of work to be lost. The Pali text used on SuttaCentral, for example, was rescued from a project by the Dhamma Society of Bangkok. Sadly, the parent organization fell apart and their online presence disappeared. The text, to which they had devoted years of proofing and preparing, vanished. It was only by sheer luck that we located a source that had been copied by a monk. In another case, years of work annotating and preparing a digital version of a Pali dictionary in a German University was permanently lost, as the IT manager resigned and left without sharing the passwords. Prof Lewis Lancaster's article "Digital Input of Buddhist Texts" contains several more such sad stories of work gone to waste.
+Even worse, as a result of poor digital management strategies, it is unfortunately common for years of work to be lost. The Pali text used on SuttaCentral, for example, was rescued from a project by the Dhamma Society of Bangkok. Sadly, the parent organization fell apart and their online presence disappeared. The text, to which they had devoted years of proofing and preparing, vanished. It was only by sheer luck that we located a source that had been copied by a monk. In another case, years of work annotating and preparing a digital version of a Pali dictionary in a German University was permanently lost, as the IT manager resigned and left without sharing the passwords. More recently, a project to scan and collate manuscripts in Sri Lanka by a Thai organization resulted in many scans being made, but none of them are publicly accessible. For all intents and purposes, they may as well not exist. Prof Lewis Lancaster’s article “Digital Input of Buddhist Texts” contains several more such sad stories of work gone to waste.
 
-We can do better. What, we should ask, is the gold standard for creating and maintaining digital projects? In my view, the answer is this: it is what programmers use for their own projects. What we are producing is, in fact, just code. At its core it is binary data, no different from what programmers produce.
+We can do better. What, we should ask, is the gold standard for creating and maintaining digital projects? In my view, the answer is this: it is what programmers use for their own projects. What we are producing is, in fact, just code. At its core it is binary data, no different from what programmers produce. Thus I propose that we use the state-of-the-art version control offered by Git to manage our digital assets.
 
 ### Use Github for all assets
 
 For many years, SuttaCentral has managed its code and source texts at Github. Github is a public cloud service for hosting code and files using the open-source Git version control system. Github is extremely stable and secure, being used by major software companies such as Google, Microsoft, and Facebook for their own code.
 
-The great advantage of using Github is that it preserves every detail about *what* changes are made, *who* changed it, *when* they changed it, and (optionally but recommended) *why* they changed it. These are recorded in an indelible and publicly accessible form on Github. On Github, *nothing is ever deleted*. So if any mistake is made, no matter how small or large, we can always revert it back to the prior state. This means that we can preserve a forensic level of detail and accuracy in all our doings, setting a standard for reliability and transparency that is unprecedented in any comparable projects.
+The great advantage of using Github is that it preserves every detail about *what* changes are made, *who* changed it, *when* they changed it, and (optionally but recommended) *why* they changed it. These are recorded in an indelible and publicly accessible form on Github. In a Github repo, *nothing is ever deleted*. So if any mistake is made, no matter how small or large, we can always revert it back to the prior state. This means that we can preserve a forensic level of detail and accuracy in all our doings, setting a standard for reliability and transparency that is unprecedented in any comparable projects.
 
 Github is free and simple to use. Anyone with access to the Github account can add or alter assets. No special software is needed; it can be done simply via a browser. For team members, it will be useful to set up a local version of the Github repository. (In Git terminology, a “repository” or “repo” is a folder that contains a set of files for a project.) Local tech support can set this up; because we’re using the same tools that programmers use themselves, pretty much every programmer will know how to do this.
 
@@ -241,7 +249,7 @@ Segmenting of text refers to breaking it into meaningful semantic segments, for 
 
 Segments will almost always be the same in different editions, since variations are usually at a smaller scale (a word or letter).
 
-SuttaCentral uses a segmented text based on the Mahāsaṅgīti edition of the Sixth Council. Let us use this as the reference edition. Here is a sample of a segmented text in SuttaCentral’s system, taken from the first discourse of the Saṁyutta Nikāya.
+SuttaCentral uses a segmented text based on the Mahāsaṅgīti (MS) edition of the Sixth Council. Let us use this as the reference edition. Here is a sample of a segmented text in SuttaCentral’s system, taken from the first discourse of the Saṁyutta Nikāya.
 
     #. </h1></div><p>
     #. <a class=“pts1ed” id=“pts1ed1.1”></a>
@@ -259,24 +267,28 @@ Here there is a rich set of data that is associated with each segment. We have:
 
 1. HTML markup, for presentation on the web.
 2. Reference details for multiple published editions.
-3. An ID number that uniquely identifies each segment.
+3. An ID number (`msgctxt`) that uniquely identifies each segment.
 4. The Pali text itself.
 5. An English translation. (Other languages can be easily added.)
 
-Normally, it is a lot of work to create and coordinate such rich data associated with a text. Using conventional tools such as word processors, there is no simple way to import the data from one edition to another. However, for us this is trivial. To create our DB CV edition, we first strip all the data from the reference edition, keeping only the Pali text. This gives us the following:
+Further information can be easily added, such as variant readings or notes on the text.
+
+Normally, it is a lot of work to create and coordinate such rich data associated with a text. Using conventional tools such as word processors, there is no simple way to import the data from one edition to another. However, for us this is trivial. To create our DP-CV edition, we first strip all the data from the reference MS edition, keeping only the Pali text. This gives us the following:
 
         Evaṃ me sutaṃ—
         ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme.
 
 Even though there is no metadata at all, we can keep the segments coordinated with the original file by simply counting the line numbers: one line = one segment.
 
-When our typists are working on the DP CV, they will keep one window on their computer to see this reference edition. Each time they come to a new segment, they mirror the reference edition by pressing <kbd>Enter</kbd> to create a new line. By this extremely simple method we can integrate our new edition with all the rich associated data from the reference edition.
+When our typists are working on the DP-CV, they will keep one window on their computer to see this reference edition. Each time they come to a new segment, they mirror the reference edition by pressing <kbd>Enter</kbd> to create a new line. At the end of the project we can import the new text into the same framework as the reference edition. By this extremely simple method we can integrate our new edition with all the rich associated data from the reference edition.
 
 ### Text input
 
-The text of each manuscript is to be inputted as accurately and literally as possible. There is no editorial input; no corrections, identifications of variants, and the like. Texts are romanized, but without adding punctuation, capitals, or any other features. This keeps the job of the typist as simple as possible.
+The text of each manuscript is to be inputted as accurately and literally as possible. There is no editorial input; no corrections, identifications of variants, restoration of text, and the like. Texts are romanized, but without adding punctuation, capitals, or any other features. This keeps the job of the typist as simple as possible.
 
-I recommend using the open-source text editor Atom for this process. It can be used on any operating system, and comes with native Github integration (in fact it is built by Github). Whenever the typists save their work it will be automatically synchronized with the central repository on Github.
+Some editorial intervention will be necessary, however, in the case of unclear or missing portions of the manuscript. These can be marked with [brackets] or some similar convention.
+
+I recommend using the open-source text editor Atom for this process. It can be used on any operating system, and comes with native Github integration (in fact it is built by Github). Whenever the typists save their work it will be automatically synchronized with the central repository on Github. SuttaCentral has created a plugin to enable easy typing of Pali on Atom.
 
 Here is how the text is created.
 
@@ -290,16 +302,16 @@ That’s all that is required to create a new digitized edition.
 
 There is no need to write line and page numbers in the text. They can be calculated at the end of the project.
 
-As mentioned above, I recommend having the source text typed twice by independent workers. Then the two versions can be “diffed” and the differences resolved. If you’re not familiar with how diffing works, here is a sample from two editions of the Ratana Sutta.
+As mentioned above, I recommend having the source text typed twice by independent workers. Then the two versions can be “diffed” and the differences resolved. If you’re not familiar with how diffing works, here is a sample from two editions of the Cullavagga: on the left the 9th century Nepalese manuscript (Bendall CV) and on the right the text from the Mahāsaṅgīti edition.
 
-![alt text](ratana-diff.png "Ratana Sutta diff")
+![alt text](bendall-cv-ms-diff.png "Ratana Sutta diff")
 
 The diff engine compares the two texts and highlights any differences. This is made easy when using a segmented text, as the differences are kept to each pair of lines. So the job of the proofreader will be to resolve each case where the digital texts diverge, referring back to the original manuscript for reference.
 
-I recommend that this process be done twice: once by comparing the two typed files of the DB CV edition, and again by comparing the merged DB CV file against the reference Mahāsaṅgīti edition.
+I recommend that this process be done twice: once by comparing the two typed files of the DP-CV edition, and again by comparing the merged DP-CV file against the reference Mahāsaṅgīti edition.
 
 Once the typing is finished, we calculate the line and page numbers of the manuscript based on the inserted glyphs. Then this reference data can be added to the set of data for all the editions. The newly typed text can be imported into the metadata structure as seen above, and then used for display, reference, translation, and so on.
 
 ## Bibliography
 
-Allon, M., Salomon, R., Jacobsen, G., Zoppi, U. (2007). Radiocarbon Dating of Kharosthi Fragments from the Schoyen and Senior Manuscript Collections. In Jens Braarvig (Eds.), BUDDHIST MANUSCRIPTS IN THE SCHØYEN COLLECTION vol. III, (pp. 279-291). Oslo, Norway: Hermes Publishing.
+- Allon, M., Salomon, R., Jacobsen, G., Zoppi, U. (2007). Radiocarbon Dating of Kharosthi Fragments from the Schoyen and Senior Manuscript Collections. In Jens Braarvig (Eds.), BUDDHIST MANUSCRIPTS IN THE SCHØYEN COLLECTION vol. III, (pp. 279-291). Oslo, Norway: Hermes Publishing.
