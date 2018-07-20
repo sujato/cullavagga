@@ -8,7 +8,7 @@ In the National Museum of Colombo there rests one of the oldest, and arguably mo
 
 The sign accompanying the exhibit identifies it as object number NM-2995 69L1. The manuscript consists of 143 palm leaves in good preservation. It was acquired by the National Museum on the recommendation of Senarath Paranavitana. The cover of the book is wood painted with depictions of deities, in a style similar to those of the Polonnaruva period. For further details one is referred to H.C.R. Bell, Annual Report 1901, Department of Archaeology.
 
-The colophon in the manuscript says that it was copied during the reign of Parākramabāhu II, which would place it in the 13th century. Since almost all our current sources for Pali texts date from manuscripts of the 18th and 19th centuries, it is imperative that the Cullavagga text be digitally preserved and transcribed. In this project outline I set forth a proposal for how to accomplish this.
+The colophon in the manuscript says that it was copied during the reign of Parākramabāhu II, which would place it in the 13th century. This makes it probably the oldest manuscript in Sri Lanka, and one of the oldest in the world. The only older Pali manuscript I am aware of is from Nepal, dated to the 8th or 9th century, and consisting of a few pages, coincidentally, also of the Cullavagga. Apart from that, so far as I am aware, all our current sources for Pali texts date from manuscripts of the 18th and 19th centuries. It is, therefore, imperative that the Cullavagga text be digitally preserved and transcribed. In this project outline I set forth a proposal for how to accomplish this.
 
 The aim of the project is to make available to scholars internationally the contents of this work for research. We propose a comprehensive approach to preparing a digital text. This will include the following items:
 
@@ -22,6 +22,10 @@ The aim of the project is to make available to scholars internationally the cont
 - Publicize the project in popular awareness.
 
 To accomplish this will require the cooperation and goodwill of scholars, governmental organizations, and universities.
+
+## Funding
+
+Funding for the project has not yet been discussed in detail. SuttaCentral would delighted to sponsor the commercial typing of the manuscript. Other costs, especially those involving the handling and assessment of the physical manuscript, need to be determined with the relevant institutions.
 
 ## Some details and terminology
 
@@ -57,7 +61,7 @@ This follows the conventions established on SuttaCentral, where Kd stands for Kh
 
 The texts of the Pali Tipiṭaka are our most important witness for the original teachings and person of the Buddha. Their significance has always been recognized in Theravada Buddhism, and became known internationally in the 19th century through the work of scholars such as [T.W. Rhys Davids](http://0-www.worldcat.org.novacat.nova.edu/identities/lccn-n50035648/) in England and [Bunyiu Nanjio](http://0-www.worldcat.org.novacat.nova.edu/identities/lccn-n81033028/) in Japan.
 
-Pali texts were traditionally passed down on palm (or *ola*) leaf manuscripts. From the late 19th century into the 20th century these manuscripts have been transcribed and published in book form. From the 1990s the books have been digitized, and are now widely available in several editions on the internet. {See Lewis Lancaster's article "Digital Input of Buddhist Texts" in Damien Keown, Charles S. Prebish, *Encyclopedia of Buddhism*, pp 288–296, Routledge 2013.} All this has greatly increased the availability of the Pali texts and has benefited scholars immensely.
+Pali texts were traditionally passed down on palm (or *ola*) leaf manuscripts. From the late 19th century into the 20th century these manuscripts have been transcribed and published in book form. From the 1990s the books have been digitized, and are now widely available in several editions on the internet. {See Lancaster, “Digital Input of Buddhist Texts”, pp 288–296.} All this has greatly increased the availability of the Pali texts and has benefited scholars immensely.
 
 However, in recent years scholars have paid greater attention to the problem of manuscript authenticity. Almost all of the manuscripts in existence date from the 18th and 19th centuries. This means that the entire Pali tradition rests on physical witnesses no more than a couple of centuries old. Linguistic, historical, and other evidence gives us good reason to be confident that the Pali texts are, on the whole, much older than this, and that they substantially date back to the time of the Buddha or shortly after. {See *The Authenticity of the Early Buddhist Texts*, Sujato and Brahmali.} Nevertheless, we should not neglect the opportunity to further test and refine our understanding of the historical provenance of the Pali texts.
 
@@ -67,7 +71,7 @@ A further problem is that almost all the Sri Lankan manuscripts stem from texts 
 
 While we are not prepared to undertake the more wide-scale digital preservation envisaged by Bhikkhu Ñāṇatusita, by preserving and published DP-CV we can, perhaps, stimulate interest and further action.
 
-One of the few early Pali texts in existence was studied and published by Oskar von Hinüber in his *The Oldest Buddhist Manuscript*. This offers a transcription, description, and detailed study of a 8th–9th century Pali manuscript from Nepal by a leading Indological philologist. Von Hinüber suggests that it may have derived from a branch monastery of the Mahāvihāra on the mainland, possibly at Bodhgaya. As it happens, the text itself, while only a few pages, is from the Cullavagga. Thus it is a small portion of the same text found in the DP-CV, and when the DP-CV is published it will enable a study of the  same passage in manuscripts of the 8th, 13th, and 18th centuries. SuttaCentral has completed a digitization of this text, which [you can view here](https://github.com/sujato/bendall-cv). This was intended as a pilot project to text and demonstrate some of the methods we are proposing for DC-CV.
+One of the few early Pali texts in existence was studied and published by Oskar von Hinüber in his *The Oldest Buddhist Manuscript*. This offers a transcription, description, and detailed study of a 8th–9th century Pali manuscript from Nepal by a leading Indological philologist. Von Hinüber suggests that it may have derived from a branch monastery of the Mahāvihāra on the mainland, possibly at Bodhgaya. As it happens, the text itself, while only a few pages, is from the Cullavagga. Thus it is a small portion of the same text found in the DP-CV, and when the DP-CV is published it will enable a study of the  same passage in manuscripts of the 8th, 13th, and 18th centuries. SuttaCentral has completed a digitization of this text, which we have named the Bendall Cullavagga (`bendall-cv`). [You can view here](https://github.com/sujato/bendall-cv). This was intended as a pilot project to test and demonstrate some of the methods we are proposing for DC-CV.
 
 When reading Pali texts in modern editions, it is quite evident that a process that might loosely be called “Sanskritization” has taken place, particularly in editions from Burma. We frequently see spelling variations even in common words, such as *supaṭipanna* vs. *suppaṭipanna*, *viriya* vs. *vīriya*, or *byākaraṇa* vs. *vyākaraṇa*. It is generally believed that this process occurred under the influence of medieval grammars such as the Saddanīti, which were based on the Sanskrit grammars. In most cases the spelling variants are inconsequential, and no more affect the meaning than, say, the choice to use UK or American spelling for English. Nevertheless, there are some cases where variant readings can affect the meaning of a passage. Thus it is important for scholars to study the nature of these changes, which can only be rigorously understood through studying early manuscripts or inscriptions.
 
@@ -150,7 +154,7 @@ In addition to clarifying the date of the manuscript, epigraphic examination sho
 
 As noted above, there is at present no reason to doubt the dating of the manuscript. However historical dates are always uncertain and it is wise to confirm them using multiple independent methods wherever possible. Carbon dating is a widely used and relatively reliable method of dating ancient artifacts.
 
-In 2007, radiocarbon dating of Gāndhāri manuscripts in Kharoṣṭhī script placed the oldest of them around 75 CE, making them the oldest extant Indian manuscripts. This project, as well as giving a firm historical context, attracted a great deal of publicity, raising the profile of Buddhist manuscript study. {Allon, M., Salomon, R., Jacobsen, G., Zoppi, U. (2007). Radiocarbon Dating of Kharosthi Fragments from the Schoyen and Senior Manuscript Collections. In Jens Braarvig (Eds.), BUDDHIST MANUSCRIPTS IN THE SCHØYEN COLLECTION vol. III, (pp. 279-291). Oslo, Norway: Hermes Publishing.}
+In 2007, radiocarbon dating of Gāndhāri manuscripts in Kharoṣṭhī script placed the oldest of them around 75 CE, making them the oldest extant Indian manuscripts. This project, as well as giving a firm historical context, attracted a great deal of publicity, raising the profile of Buddhist manuscript study. {Mark Allon, et al.}
 
 I propose that we carbon date the DP-CV, with the aim to confirm or refute the ascription of the manuscript to the 13th century. Together with the colophon and the epigraphic assessment, this will provide a solid basis for dating the manuscript.
 
@@ -165,7 +169,7 @@ This is the most critical part of the project, and the one that will take the mo
 
 In typing, it is not necessary to know the language. In fact, familiarity with Pali may be a disadvantage, as it may shape the typists’ perceptions and expectations. Thus I propose:
 
-- **Typing to be undertaken by a commercial typing firm, with proofreading done by Pali scholars or students.**
+- **Typing to be undertaken by a commercial typing firm, with proofreading done by Pali scholars.**
 
 In a project such as this it is common to have the initial typing done *twice* independently, and the two versions compared. This, as scholars of the Theravada tradition would know, echoes the technique that legend says was used by Acariya Buddhaghosa. It is said that after writing the Visuddhimagga, the devas took it away, and he had to write it again; and then a third time also. Finally all three versions were compared side by side, and not one character was found to differ.
 
@@ -211,7 +215,7 @@ The National Museum and/or other bodies may wish to publicize the work to raise 
 
 ## Flow for completing each module
 
-Here I set out a process for ensuring the efficient completion of the tasks. The principle is that, so far as possible, tasks may be completed in parallel. This means that, unless it is really necessary, none of the team members has to wait for other team members to finish their work. This process is inspired by task management in modern “Agile” processes for teams, which empasizes “release early and often”.
+Here I set out a process for ensuring the efficient completion of the tasks. The principle is that, so far as possible, tasks may be completed in parallel. This means that, unless it is really necessary, none of the team members has to wait for other team members to finish their work. This process is inspired by task management in the modern “Agile” process for teams, which empasizes “release early and often”.
 
 Many of these tasks are of intrinsic value, even if later tasks are not completed. For example, having scanned images available is useful in and of itself, regardless of whether we have a digitized text. So there is no need to wait for the digitization process to be completed before releasing the images. Similarly, carbon dating or epigraphic assessment are of intrinsic interest. These details can be released, also, in a timely manner. Making information publicly available in this way increases interest in a project and demonstrates a commitment to accountability and transparencey.
 
@@ -221,7 +225,7 @@ Many of these tasks are of intrinsic value, even if later tasks are not complete
 
 While it is obvious that we live in a digital age, and the primary product of our work is digital media, it is still rare in the humanities to find a considered appreciation of how to go about a digital project.
 
-Consider our source manuscript. It tells us it was copied by Sumedha Mahāthera on the instructions of the Medhaṅkara Mahāsāmi as part of a donation of giving one book to each monk in Sri Lanka with the patronage of King Parākramabāhu II. {Nyanatusita p. 369, following Fernando. Fernando, P. E. E. 1982. “A Note on Three Old Sinhalese Palm Leaf manuscripts,” The Sri Lanka Journal of the Humanities 8, no. 1/2: 146–157.}
+Consider our source manuscript. It tells us it was copied by Sumedha Mahāthera on the instructions of the Medhaṅkara Mahāsāmi as part of a donation of giving one book to each monk in Sri Lanka with the patronage of King Parākramabāhu II. {Nyanatusita p. 369, following Fernando.}
 
 Now consider the state of many of our digital texts. Who were they typed by? Who organized and checked the work? Who was the sponsor? What was the method by which the work was done? We often know none of these things. The texts are produced, ascribed to an institution, and published in a digital form with little or nothing to tell us how they were made. We have better information about a 13th century manuscript than we do about most of our digital texts.
 
@@ -233,7 +237,7 @@ We can do better. What, we should ask, is the gold standard for creating and mai
 
 For many years, SuttaCentral has managed its code and source texts at Github. Github is a public cloud service for hosting code and files using the open-source Git version control system. Github is extremely stable and secure, being used by major software companies such as Google, Microsoft, and Facebook for their own code.
 
-The great advantage of using Github is that it preserves every detail about *what* changes are made, *who* changed it, *when* they changed it, and (optionally but recommended) *why* they changed it. These are recorded in an indelible and publicly accessible form on Github. In a Github repo, *nothing is ever deleted*. So if any mistake is made, no matter how small or large, we can always revert it back to the prior state. This means that we can preserve a forensic level of detail and accuracy in all our doings, setting a standard for reliability and transparency that is unprecedented in any comparable projects.
+The great advantage of using Github is that it preserves every detail about *what* changes are made, *who* changed it, *when* they changed it, and (optionally but recommended) *why* they changed it. These are recorded in an indelible and publicly accessible form on Github. In a Github repo, *nothing is ever deleted*. So if any mistake is made, no matter how small or large, we can always revert it back to the prior state. This means that we can preserve a forensic level of detail and accuracy in all our doings, setting the highest standard for reliability and transparency.
 
 Github is free and simple to use. Anyone with access to the Github account can add or alter assets. No special software is needed; it can be done simply via a browser. For team members, it will be useful to set up a local version of the Github repository. (In Git terminology, a “repository” or “repo” is a folder that contains a set of files for a project.) Local tech support can set this up; because we’re using the same tools that programmers use themselves, pretty much every programmer will know how to do this.
 
@@ -263,7 +267,7 @@ SuttaCentral uses a segmented text based on the Mahāsaṅgīti (MS) edition of 
     msgid “ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme.”
     msgstr “At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery.”
 
-Here there is a rich set of data that is associated with each segment. We have:
+This contains a rich set of data that is associated with each segment.
 
 1. HTML markup, for presentation on the web.
 2. Reference details for multiple published editions.
@@ -314,4 +318,8 @@ Once the typing is finished, we calculate the line and page numbers of the manus
 
 ## Bibliography
 
-- Allon, M., Salomon, R., Jacobsen, G., Zoppi, U. (2007). Radiocarbon Dating of Kharosthi Fragments from the Schoyen and Senior Manuscript Collections. In Jens Braarvig (Eds.), BUDDHIST MANUSCRIPTS IN THE SCHØYEN COLLECTION vol. III, (pp. 279-291). Oslo, Norway: Hermes Publishing.
+- Allon, M., Salomon, R., Jacobsen, G., Zoppi, U. (2007). “<cite>Radiocarbon Dating of Kharosthi Fragments from the Schøyen and Senior Manuscript Collections</cite>”. In Jens Braarvig (Eds.), <cite>Buddhist Manuscripts in the Schøyen Collection</cite>, vol. iii: pp. 279–291. Oslo, Norway: Hermes Publishing.
+- Fernando, P. E. E. 1982. “<cite>Note on Three Old Sinhalese Palm Leaf manuscripts</cite>”, The Sri Lanka Journal of the Humanities 8, no. 1/2: 146–157.
+- Lancaster, Lewis. “<cite>Digital Input of Buddhist Texts</cite>” in Damien Keown, Charles S. Prebish, <cite>Encyclopedia of Buddhism</cite>, pp 288–296, Routledge 2013.
+- Ñāṇatusita, Bhikkhu “<cite>Pali Manuscripts of Sri Lanka</cite>”, in <cite>From Birch Bark to Digital Data: Recent Advances in Buddhist Manuscript Research</cite>. Papers Presented at the Conference “Indic Buddhist Manuscripts: The State of the Field”, Stanford, June 15–19, 2009, edited by Paul Harrison and Jens-Uwe Hartmann, and published by Österreichische Akademie der Wissenschaften Wien in 2014.
+- Sujato, Bhikkhu and Brahmali, Bhikkhu. <cite>The Authenticity of the Early Buddhist Texts</cite>.
