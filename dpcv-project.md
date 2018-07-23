@@ -65,13 +65,13 @@ The texts of the Pali Tipiṭaka are our most important witness for the original
 
 Pali texts were traditionally passed down on palm (or *ola*) leaf manuscripts. From the late 19th century into the 20th century these manuscripts have been transcribed and published in book form. From the 1990s the books have been digitized, and are now widely available in several editions on the internet. {See Lancaster, “Digital Input of Buddhist Texts”, pp 288–296.} All this has greatly increased the availability of the Pali texts and has benefited scholars immensely.
 
-However, in recent years scholars have paid greater attention to the problem of manuscript authenticity. Almost all of the manuscripts in existence date from the 18th and 19th centuries. This means that the entire Pali tradition rests on physical witnesses no more than a couple of centuries old. Linguistic, historical, and other evidence gives us good reason to be confident that the Pali texts are, on the whole, much older than this, and that they substantially date back to the time of the Buddha or shortly after. {See *The Authenticity of the Early Buddhist Texts*, Sujato and Brahmali.} Nevertheless, we should not neglect the opportunity to further test and refine our understanding of the historical provenance of the Pali texts.
+However, in recent years scholars have paid greater attention to the problem of manuscript authenticity. Almost all of the manuscripts in existence date from the 18th and 19th centuries. This means that the entire Pali tradition rests on physical witnesses no more than a couple of centuries old. By way of comparison, modern Chinese Buddhist texts mostly stem from the [Tripiṭaka Koreana](https://en.wikipedia.org/wiki/Tripitaka_Koreana), a 13th century edition carved in wood blocks. Linguistic, historical, and other evidence gives us good reason to be confident that the Pali texts are, on the whole, much older than this, and that they substantially date back to the time of the Buddha or shortly after. {See *The Authenticity of the Early Buddhist Texts*, Sujato and Brahmali.} Nevertheless, we should not neglect the opportunity to further test and refine our understanding of the historical provenance of the Pali texts.
 
-A further problem is that almost all the Sri Lankan manuscripts stem from texts that were imported from Burma or Thailand around the 18th century. Thus, although Burma and Thailand originally received their texts from Sri Lanka, we have little evidence for a Sri Lankan transmission that has not passed through those countries. For a discussion of these and other issues regarding the state of Pali manuscripts in Sri Lanka, see Bhikkhu Ñāṇatusita, <cite>[Pali Manuscripts of Sri Lanka](/related-essays/Pali_Manuscripts_of_Sri_Lanka.pdf)</cite>. He speaks of the importance of a project to preserve and make available the many manuscripts in Sri Lanka, observing that:
+A further problem is that almost all the Sri Lankan manuscripts stem from texts that were imported from Burma or Thailand around the 18th century. Thus, although Burma and Thailand originally received their texts from Sri Lanka, we have little evidence for a Sri Lankan transmission that has not passed through those countries. For a discussion of these and other issues regarding the state of Pali manuscripts in Sri Lanka, see Bhikkhu Nyanatusita, <cite>[Pali Manuscripts of Sri Lanka](/related-essays/Pali_Manuscripts_of_Sri_Lanka.pdf)</cite>. He speaks of the importance of a project to preserve and make available the many manuscripts in Sri Lanka, observing that:
 
 > The digital photographs should not be stored in just one institution, where they might be lost, as happened with the microfilms at the National Archives, but should be made freely available on the internet so that any scholar can access them. Also detailed information (description, history, photographs, list of manuscripts) should be given about the monasteries where the manuscripts were photographed.
 
-While we are not prepared to undertake the more wide-scale digital preservation envisaged by Bhikkhu Ñāṇatusita, by preserving and published DP-CV we can, perhaps, stimulate interest and further action.
+While we are not prepared to undertake the more wide-scale digital preservation envisaged by Bhikkhu Nyanatusita, by preserving and published DP-CV we can, perhaps, stimulate interest and further action.
 
 One of the few early Pali texts in existence was studied and published by Oskar von Hinüber in his <cite>[The Oldest Buddhist Manuscript](/related-essays/Hinuber_Oldest_Pali_Manuscript.pdf)</cite>. This offers a transcription, description, and detailed study of a 8th–9th century Pali manuscript from Nepal by a leading Indological philologist. Von Hinüber suggests that it may have derived from a branch monastery of the Mahāvihāra on the mainland, possibly at Bodhgaya. As it happens, the text itself, while only a few pages, is from the Cullavagga. Thus it is a small portion of the same text found in the DP-CV, and when the DP-CV is published it will enable a study of the  same passage in manuscripts of the 8th, 13th, and 18th centuries. SuttaCentral has completed a digitization of this text, which we have named the Bendall Cullavagga (`bendall-cv`). [You can view it here](https://github.com/sujato/bendall-cv). This was intended as a pilot project to test and demonstrate some of the methods we are proposing for DC-CV.
 
@@ -238,7 +238,7 @@ Many of these tasks are of intrinsic value, even if later tasks are not complete
 
 ## Digital Strategy
 
-While it is obvious that we live in a digital age, and the primary product of our work is digital media, it is still rare in the humanities to find a considered appreciation of how to go about a digital project.
+We live in a digital age and the primary product of our work is digital media. Thus the manner in which we undertake our project should reflect best practices for digital media. While this may seem obvious, it is, unfortunately, very much the exception in the field.
 
 Consider our source manuscript. It tells us it was copied by Sumedha Mahāthera on the instructions of the Medhaṅkara Mahāsāmi as part of a donation of giving one book to each monk in Sri Lanka with the patronage of King Parākramabāhu.
 
@@ -325,7 +325,11 @@ As mentioned above, I recommend having the source text typed twice by independen
 
 ![alt text](/dpcv-project-files/bendall-cv-ms-diff.png "Ratana Sutta diff")
 
-The diff engine compares the two texts and highlights any differences. This is made easy when using a segmented text, as the differences are kept to each pair of lines. So the job of the proofreader will be to resolve each case where the digital texts diverge, referring back to the original manuscript for reference.
+The diff engine compares the two texts and highlights any differences. This is made easy when using a segmented text, as the differences are kept to each pair of lines.
+
+In this example, you can see several examples of the kinds of problems we are aiming to illuminate through comparing manuscripts. There are a fair number of differences, although they are mostly minor spelling variations. Sometimes these are consistent (eg. *vattavvo* vs. *vattabbo*), with readings found nowhere in modern Pali. Such cases may reflect a dialectical evolution within Pali, or perhaps a geographical difference. In other cases (eg. *kiṁ ca* vs. *kiñca*) we see the same kinds of variations found within modern texts. In still other cases (eg. *paṭigaṇheyyanti* vs. *paṭiggaṇheyyanti*) the difference appears to be a simple error on the part of the scribe. This itself is of interest, because it shows how the ancient manuscripts were not always as well edited and corrected as our modern editions.
+
+So the job of the proofreader will be to resolve each case where the digital texts diverge, referring back to the original manuscript for reference.
 
 I recommend that this process be done twice: once by comparing the two typed files of the DP-CV edition, and again by comparing the merged DP-CV file against the reference Mahāsaṅgīti edition.
 
@@ -333,16 +337,16 @@ Once the typing is finished, we calculate the line and page numbers of the manus
 
 ## Beyond this project
 
-Once the project is completed and the text digitized, the text may be used in various applications. While the text is reasonably safe on Github, we should try to make it available on sites such as [GRETIL](http://gretil.sub.uni-goettingen.de/) and the [Internet Archive](https://archive.org/). The more widely disseminated the text is, the harder it is to lose it entirely.
+Once the project is completed and the text digitized, the text may be used in various applications. While the text is reasonably safe on Github, we should try to make it available on sites such as [GRETIL](http://gretil.sub.uni-goettingen.de/) and the [Internet Archive](https://archive.org/). The more widely disseminated the text is, the harder it is for it to become entirely lost.
 
 The text and images may be consumed in applications such as SuttaCentral or any other interested project, and we should try to support such efforts.
 
 There are many more manuscripts in Sri Lanka, which are also crying out for similar digitization. SuttaCentral’s area of interest is the early canonical texts, and there are at least two such manuscripts of comparable value to DP-CV.
 
-- The National Museum houses a manuscript of the Saṁyutta Nikāya, whose colophon says that the original copy was copied in 1412 CE by Maṅgala Thera of Sunētra Dēvi Pirivena of Pepiliyana. (Nyanatusita 371)
-- A manuscript of the Mahāvagga—the companion text to the Cullavagga—dating to the 13th century is at the Vidyalankara Pirivena in Kelaniya (Nyanatusita 369.
+- The National Museum houses a manuscript of the Saṁyutta Nikāya, whose colophon says that the original copy was copied in 1412 CE by Maṅgala Thera of Sunētra Dēvi Pirivena of Pepiliyana. (Nyanatusita, 371)
+- A 13th century manuscript of the Mahāvagga—the companion text to the Cullavagga—is at the Vidyalankara Pirivena in Kelaniya. (Nyanatusita, 369)
 
-Taking these together with the DP-CV—and assuming they are reasonably complete—they make up over a third of the early Pali canonical prose texts. To establish such a sizable portion of the Tipitaka on such early manuscripts would be a significant contribution to Buddhist studies. SuttaCentral would be very interested to support such an ongoing project.
+Taking these together with the DP-CV—and assuming they are reasonably complete—they make up over a third of the early Pali canonical prose texts. To establish such a sizable portion of the Tipitaka on such early manuscripts would be a significant contribution to Buddhist studies. In addition, this would help us understand what features are representative of the Pali texts of this period, and which are simply characteristics of a particular manuscript. SuttaCentral would be very interested to support such an ongoing project.
 
 There are a number of manuscripts of a similar age, which are also deserving of preservation. Since these are of commentarial literature they are beyond the scope of SuttaCentral. Nonetheless, we would be happy to offer technical support for any such efforts. I believe that the methods set forth here will achieve a very accurate and usable text with a reasonable amount of effort, and would encourage all parties involved to continue the work.
 
@@ -352,5 +356,5 @@ There are a number of manuscripts of a similar age, which are also deserving of 
 - De Silva, W.A.. <cite>Catlogue of Palm Leaf Manuscripts</cite>, Colombo 1938, No. 2363
 - Fernando, P. E. E. 1982. “<cite>Note on Three Old Sinhalese Palm Leaf manuscripts</cite>”, The Sri Lanka Journal of the Humanities 8, no. 1/2: 146–157.
 - Lancaster, Lewis. “<cite>Digital Input of Buddhist Texts</cite>” in Damien Keown, Charles S. Prebish, <cite>Encyclopedia of Buddhism</cite>, pp 288–296, Routledge 2013.
-- Ñāṇatusita, Bhikkhu “<cite>Pali Manuscripts of Sri Lanka</cite>”, in <cite>From Birch Bark to Digital Data: Recent Advances in Buddhist Manuscript Research</cite>. Papers Presented at the Conference “Indic Buddhist Manuscripts: The State of the Field”, Stanford, June 15–19, 2009, edited by Paul Harrison and Jens-Uwe Hartmann, and published by Österreichische Akademie der Wissenschaften Wien in 2014.
+- Nyanatusita, Bhikkhu “<cite>Pali Manuscripts of Sri Lanka</cite>”, in <cite>From Birch Bark to Digital Data: Recent Advances in Buddhist Manuscript Research</cite>. Papers Presented at the Conference “Indic Buddhist Manuscripts: The State of the Field”, Stanford, June 15–19, 2009, edited by Paul Harrison and Jens-Uwe Hartmann, and published by Österreichische Akademie der Wissenschaften Wien in 2014.
 - Sujato, Bhikkhu and Brahmali, Bhikkhu. <cite>The Authenticity of the Early Buddhist Texts</cite>.
