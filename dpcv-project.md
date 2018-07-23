@@ -39,7 +39,7 @@ Since the manuscript is said to have been sponsored by King Parākramabāhu II, 
 
 - **The manuscript be named the “Dutiya-Parakkamabāhu Cullavagga”, with the acronym DP-CV, or `dpcv` for programming contexts.**
 
-<small>Note that, while the Sanskritic form *parākramabāhu* has become standard, in the Pali chronicles it appears as *parakkamabāhu* (or *parakkamabbāhu*). However, in texts such as the [Dīpamavamsa II](http://gretil.sub.uni-goettingen.de/gretil/2_pali/3_chron/dipav_2u.htm) and the [Mahāvaṁsa](http://gretil.sub.uni-goettingen.de/gretil/2_pali/3_chron/mahava_u.htm) the form *parakkamabhuja* is more common. *Bāhu* and *bhuja* are synonyms, both meaning “arm”. In the Mahāvaṁsa, for example, *parakkamabāhu* appears once only, while *parakkamabhuja* occurs 56 times. Until it is edited, of course, we cannot say what form is used in the manuscript itself. The Sanskritic drift of the king’s name is, aptly enough, an example of the kind of problem that we wish to address through studying this manuscript.</small>
+<small>Note that, while the Sanskritic form *parākramabāhu* has become standard, in the Pali chronicles it appears as *parakkamabāhu* (or *parakkamabbāhu*). However, in texts such as the [Dīpavaṁsa II](http://gretil.sub.uni-goettingen.de/gretil/2_pali/3_chron/dipav_2u.htm) and the [Mahāvaṁsa](http://gretil.sub.uni-goettingen.de/gretil/2_pali/3_chron/mahava_u.htm) the form *parakkamabhuja* is more common. *Bāhu* and *bhuja* are synonyms, both meaning “arm”. In the Mahāvaṁsa, for example, *parakkamabāhu* appears once only, while *parakkamabhuja* occurs 56 times. Until it is edited, of course, we cannot say what form is used in the manuscript itself. The Sanskritic drift of the king’s name is, aptly enough, an example of the kind of problem that we wish to address through studying this manuscript.</small>
 
 ### Naming the chapters
 
@@ -67,13 +67,13 @@ Pali texts were traditionally passed down on palm (or *ola*) leaf manuscripts. F
 
 However, in recent years scholars have paid greater attention to the problem of manuscript authenticity. Almost all of the manuscripts in existence date from the 18th and 19th centuries. This means that the entire Pali tradition rests on physical witnesses no more than a couple of centuries old. Linguistic, historical, and other evidence gives us good reason to be confident that the Pali texts are, on the whole, much older than this, and that they substantially date back to the time of the Buddha or shortly after. {See *The Authenticity of the Early Buddhist Texts*, Sujato and Brahmali.} Nevertheless, we should not neglect the opportunity to further test and refine our understanding of the historical provenance of the Pali texts.
 
-A further problem is that almost all the Sri Lankan manuscripts stem from texts that were imported from Burma or Thailand around the 18th century. Thus, although Burma and Thailand originally received their texts from Sri Lanka, we have little evidence for a Sri Lankan transmission that has not passed through those countries. For a discussion of these and other issues regarding the state of Pali manuscripts in Sri Lanka, see Bhikkhu Ñāṇatusita, *Pali Manuscripts of Sri Lanka*. In reference to the importance of a project to preserve and make available the many manuscripts in Sri Lanka, he observes that:
+A further problem is that almost all the Sri Lankan manuscripts stem from texts that were imported from Burma or Thailand around the 18th century. Thus, although Burma and Thailand originally received their texts from Sri Lanka, we have little evidence for a Sri Lankan transmission that has not passed through those countries. For a discussion of these and other issues regarding the state of Pali manuscripts in Sri Lanka, see Bhikkhu Ñāṇatusita, <cite>[Pali Manuscripts of Sri Lanka](/related-essays/Pali_Manuscripts_of_Sri_Lanka.pdf)</cite>. He speaks of the importance of a project to preserve and make available the many manuscripts in Sri Lanka, observing that:
 
 > The digital photographs should not be stored in just one institution, where they might be lost, as happened with the microfilms at the National Archives, but should be made freely available on the internet so that any scholar can access them. Also detailed information (description, history, photographs, list of manuscripts) should be given about the monasteries where the manuscripts were photographed.
 
 While we are not prepared to undertake the more wide-scale digital preservation envisaged by Bhikkhu Ñāṇatusita, by preserving and published DP-CV we can, perhaps, stimulate interest and further action.
 
-One of the few early Pali texts in existence was studied and published by Oskar von Hinüber in his *The Oldest Buddhist Manuscript*. This offers a transcription, description, and detailed study of a 8th–9th century Pali manuscript from Nepal by a leading Indological philologist. Von Hinüber suggests that it may have derived from a branch monastery of the Mahāvihāra on the mainland, possibly at Bodhgaya. As it happens, the text itself, while only a few pages, is from the Cullavagga. Thus it is a small portion of the same text found in the DP-CV, and when the DP-CV is published it will enable a study of the  same passage in manuscripts of the 8th, 13th, and 18th centuries. SuttaCentral has completed a digitization of this text, which we have named the Bendall Cullavagga (`bendall-cv`). [You can view it here](https://github.com/sujato/bendall-cv). This was intended as a pilot project to test and demonstrate some of the methods we are proposing for DC-CV.
+One of the few early Pali texts in existence was studied and published by Oskar von Hinüber in his <cite>[The Oldest Buddhist Manuscript](/related-essays/Hinuber_Oldest_Pali_Manuscript.pdf)</cite>. This offers a transcription, description, and detailed study of a 8th–9th century Pali manuscript from Nepal by a leading Indological philologist. Von Hinüber suggests that it may have derived from a branch monastery of the Mahāvihāra on the mainland, possibly at Bodhgaya. As it happens, the text itself, while only a few pages, is from the Cullavagga. Thus it is a small portion of the same text found in the DP-CV, and when the DP-CV is published it will enable a study of the  same passage in manuscripts of the 8th, 13th, and 18th centuries. SuttaCentral has completed a digitization of this text, which we have named the Bendall Cullavagga (`bendall-cv`). [You can view it here](https://github.com/sujato/bendall-cv). This was intended as a pilot project to test and demonstrate some of the methods we are proposing for DC-CV.
 
 When reading Pali texts in modern editions, it is quite evident that a process that might loosely be called “Sanskritization” has taken place. We frequently see spelling variations even in common words, such as *supaṭipanna* vs. *suppaṭipanna*, *viriya* vs. *vīriya*, or *byākaraṇa* vs. *vyākaraṇa*. It is generally believed that this process occurred under the influence of medieval grammars such as the Saddanīti, which were based on the Sanskrit grammars. In most cases the spelling variants are inconsequential, and no more affect the meaning than, say, the choice to use UK or American spelling for English. Nevertheless, there are some cases where variant readings can affect the meaning of a passage. Thus it is important for scholars to study the nature of these changes, which can only be rigorously understood through studying early manuscripts or inscriptions.
 
@@ -83,7 +83,7 @@ This manuscript has been mentioned a number of times in published articles.
 
 The initial report of the discovery is said (in the sign on the exhibit) to have been posted by H.C.R. Bell in the Department of Archaeology’s Annual Report of 1901. Unfortunately, this edition of the Report does not seem to be available online. We should ascertain whether a copy of this Report exists at the Department, and if possible have it scanned and uploaded. {A microfilm copy may be available for viewing at the [National Gallery of Australia Research Library](https://trove.nla.gov.au/work/8639753). However this apparently includes plates only, so it may well be useless for our purpose.}
 
-The manuscript is discussed in Fernando’s excellent <cite>“A Note on Three Old Sinhalese Palm Leaf manuscripts”</cite>. Fernando reaches the following conclusions:
+The manuscript is discussed in fair detail in P.E.E. Fernando’s excellent <cite>[A Note on Three Old Sinhalese Palm Leaf manuscripts](/related-essays/Fernando_Three_Old_Sinhalese_Manuscripts.pdf)</cite> (1982). Fernando reaches the following conclusions:
 
 - He confirms, on the basis of epigraphic analysis and historical context, Paranavitana’s conclusion that the manuscript was copied in the reign of Parākramabāhu II of Dambadeṇiya, and is definitely later than the Polonnaruwa period.
 - He notes some details of the script, which may be useful for our typists.
@@ -305,7 +305,7 @@ When our typists are working on the DP-CV, they will keep one window on their co
 
 The text of each manuscript is to be inputted as accurately and literally as possible. There is no editorial input; no corrections, identifications of variants, restoration of text, and the like. Texts are romanized, but without adding punctuation, capitals, or any other features. This keeps the job of the typist as simple as possible.
 
-Some editorial intervention will be necessary, however, in the case of unclear or missing portions of the manuscript. These can be marked with [brackets] or some similar convention.
+Some editorial intervention will be necessary, however, in the case of unclear or missing portions of the manuscript. Unclear *akṣaras* can be marked with [brackets] or some similar convention, while missing *akṣaras* can be indicated with +.
 
 I recommend using the open-source text editor Atom for this process. It can be used on any operating system, and comes with native Github integration (in fact it is built by Github). Whenever the typists save their work it will be automatically synchronized with the central repository on Github. SuttaCentral has created a plugin to enable easy typing of Pali on Atom.
 
@@ -330,6 +330,21 @@ The diff engine compares the two texts and highlights any differences. This is m
 I recommend that this process be done twice: once by comparing the two typed files of the DP-CV edition, and again by comparing the merged DP-CV file against the reference Mahāsaṅgīti edition.
 
 Once the typing is finished, we calculate the line and page numbers of the manuscript based on the inserted glyphs. Then this reference data can be added to the set of data for all the editions. The newly typed text can be imported into the metadata structure as seen above, and then used for display, reference, translation, and so on.
+
+## Beyond this project
+
+Once the project is completed and the text digitized, the text may be used in various applications. While the text is reasonably safe on Github, we should try to make it available on sites such as [GRETIL](http://gretil.sub.uni-goettingen.de/) and the [Internet Archive](https://archive.org/). The more widely disseminated the text is, the harder it is to lose it entirely.
+
+The text and images may be consumed in applications such as SuttaCentral or any other interested project, and we should try to support such efforts.
+
+There are many more manuscripts in Sri Lanka, which are also crying out for similar digitization. SuttaCentral’s area of interest is the early canonical texts, and there are at least two such manuscripts of comparable value to DP-CV.
+
+- The National Museum houses a manuscript of the Saṁyutta Nikāya, whose colophon says that the original copy was copied in 1412 CE by Maṅgala Thera of Sunētra Dēvi Pirivena of Pepiliyana. (Nyanatusita 371)
+- A manuscript of the Mahāvagga—the companion text to the Cullavagga—dating to the 13th century is at the Vidyalankara Pirivena in Kelaniya (Nyanatusita 369.
+
+Taking these together with the DP-CV—and assuming they are reasonably complete—they make up over a third of the early Pali canonical prose texts. To establish such a sizable portion of the Tipitaka on such early manuscripts would be a significant contribution to Buddhist studies. SuttaCentral would be very interested to support such an ongoing project.
+
+There are a number of manuscripts of a similar age, which are also deserving of preservation. Since these are of commentarial literature they are beyond the scope of SuttaCentral. Nonetheless, we would be happy to offer technical support for any such efforts. I believe that the methods set forth here will achieve a very accurate and usable text with a reasonable amount of effort, and would encourage all parties involved to continue the work.
 
 ## Bibliography
 
