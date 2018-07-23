@@ -146,11 +146,11 @@ There is a microfilm of the manuscript, but this is not a good solution. Microfi
 
 ![alt text](photograph-sample.jpeg "Photograph")
 
-Worse, several of the microfilm images appear to be so badly corrupted as to be virtually unreadable. In this kind of work it is essential that the typists and proofreaders have access to the highest possible quality images so as to make out the many obscure or damaged characters.
+Worse, several of the microfilm images appear to be so badly corrupted as to be virtually unreadable.
 
 ![alt text](bad-HPIM4629.jpeg "Unreadable sample")
 
-Thus I recommend that, while the microfilm images may be useful for getting an initial idea of the text, the full text should be properly scanned.
+In this kind of work it is essential that the typists and proofreaders have access to the highest possible quality images so as to make out the many obscure or damaged characters. Thus I recommend that, while the microfilm images may be useful for getting an initial idea of the text, the full text should be properly scanned.
 
 The images must be saved in as high resolution as practical. The basic image format should be lossless, which rules out `jpeg`. `png`, which uses lossless compression, is a better option.
 
