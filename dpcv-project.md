@@ -8,7 +8,7 @@ In the National Museum of Colombo there rests one of the oldest, and arguably mo
 
 The sign accompanying the exhibit identifies it as object number NM-2995 69L1. The manuscript consists of 143 palm leaves in good preservation. It was acquired by the National Museum on the recommendation of Senarath Paranavitana, who made the initial identification of the king with Dutiya-Parakkamabāhu. The cover of the book is wood painted with depictions of deities, in a style similar to those of the Polonnaruva period. For further details one is referred to H.C.R. Bell, Annual Report 1901, Department of Archaeology.
 
-The <a href="images/dpcv-microfilm/HPIM4634.jpeg">manuscript</a> itself includes a note ([HPIM4634](images/dpcv-microfilm/HPIM4634.jpeg), [HPIM4635](https://github.com/sujato/cullavagga/blob/master/images/dpcv-microfilm/HPIM4635.jpeg)) to the effect that the manuscript consists of 144 leaves, sized 23" x 2 ¼". Since the sign in the Museum says there are 143 leaves, this discrepancy should be resolved. It was purchased for Rs 1000 along with 38 other manuscripts from the late Mr. H.C.P. Bell’s estate on 12/1/1938.
+The manuscript itself includes a note ([HPIM4634](/images/dpcv-microfilm/HPIM4634.jpeg), [HPIM4635](/images/dpcv-microfilm/HPIM4635.jpeg)) to the effect that the manuscript consists of 144 leaves, sized 23" x 2 ¼". Since the sign in the Museum says there are 143 leaves, this discrepancy should be resolved. It was purchased for Rs 1000 along with 38 other manuscripts from the late Mr. H.C.P. Bell’s estate on 12/1/1938.
 
 The colophon in the manuscript says that it was copied during the reign of Parākramabāhu II, which would place it in the 13th century. This makes it probably the oldest manuscript in Sri Lanka, and one of the oldest in the world. The only older Pali manuscript I am aware of is from Nepal, dated to the 8th or 9th century, and consisting of a few pages, coincidentally, also of the Cullavagga. Apart from that, so far as I am aware, all our current sources for Pali texts date from manuscripts of the 18th and 19th centuries. It is, therefore, imperative that the Cullavagga text be digitally preserved and transcribed. In this project outline I set forth a proposal for how to accomplish this.
 
@@ -37,7 +37,7 @@ So far as I know, the manuscript in question has not become known by any accepte
 
 Since the manuscript is said to have been sponsored by King Parākramabāhu II, it seems sensible to name it after him. The Pali term would be Dutiya-Parakkamabāhu. (See [Dīpavaṁsa II 37.84](http://gretil.sub.uni-goettingen.de/gretil/2_pali/3_chron/dipav_2u.htm) *dutiya-parakkamabhuja*.) Thus I propose the following:
 
-- **The manuscript be named the “Dutiya-Parakkamabāhu Cullavagga”, with the acronym DP-CV, or `dp-cv` for programming contexts.**
+- **The manuscript be named the “Dutiya-Parakkamabāhu Cullavagga”, with the acronym DP-CV, or `dpcv` for programming contexts.**
 
 <small>Note that, while the Sanskritic form *parākramabāhu* has become standard, in the Pali chronicles it appears as *parakkamabāhu* (or *parakkamabbāhu*). However, in texts such as the [Dīpamavamsa II](http://gretil.sub.uni-goettingen.de/gretil/2_pali/3_chron/dipav_2u.htm) and the [Mahāvaṁsa](http://gretil.sub.uni-goettingen.de/gretil/2_pali/3_chron/mahava_u.htm) the form *parakkamabhuja* is more common. *Bāhu* and *bhuja* are synonyms, both meaning “arm”. In the Mahāvaṁsa, for example, *parakkamabāhu* appears once only, while *parakkamabhuja* occurs 56 times. Until it is edited, of course, we cannot say what form is used in the manuscript itself. The Sanskritic drift of the king’s name is, aptly enough, an example of the kind of problem that we wish to address through studying this manuscript.</small>
 
@@ -114,10 +114,6 @@ A project such as this requires a variety of specialized technical skills and eq
 7. **Yalith Wijesurendra**
   - Project coordinator
 
-## Funding
-
-So far we have not discussed or investigated the question of funding this project. SuttaCentral would be happy to contribute through raising funds from our donors. Mark Allon has indicated that it may be possible to secure funding in Australia for the carbon dating.
-
 ## How to proceed
 
 Here I will outline what I envisage as the scope of the project. This will have three aspects:
@@ -140,15 +136,15 @@ The manuscript appears to be in good condition, but it must be carefully examine
 
 The manuscript must be scanned carefully, using good quality modern equipment, and undertaken by qualified staff.
 
-There is a microfilm of the manuscript, but this is not a good solution. Microfilm is an outdated technology, and it is difficult to find equipment to use it. In addition, while the microfilmed images are reasonably good, they will not be of quality comparable to that of modern scans. In the `images` folder of this repo you can see a set of images made from the microfilms, made by Bhikkhu Nyanatusita. While the images are of good quality, the limitations of the source are readily apparent. Compare the quality of a microfilmed image with that of a manuscript image.
+There is a microfilm of the manuscript, but this is not a good solution. Microfilm is an outdated technology, and it is difficult to find equipment to use it. In addition, while the microfilmed images are reasonably good, they will not be of quality comparable to that of modern scans. In the [images](/images) folder of this repo you can see a set of images made from the microfilms, made by Bhikkhu Nyanatusita. While the images are of good quality, the limitations of the source are readily apparent. Compare the quality of a microfilmed image with that of a manuscript image.
 
-![alt text](microfilm-sample.jpeg "Microfilm")
+![alt text](/dpcv-project-files/microfilm-sample.jpeg "Microfilm")
 
-![alt text](photograph-sample.jpeg "Photograph")
+![alt text](/dpcv-project-files/photograph-sample.jpeg "Photograph")
 
 Worse, several of the microfilm images appear to be so badly corrupted as to be virtually unreadable.
 
-![alt text](bad-HPIM4629.jpeg "Unreadable sample")
+![alt text](/dpcv-project-files/bad-HPIM4629.jpeg "Unreadable sample")
 
 In this kind of work it is essential that the typists and proofreaders have access to the highest possible quality images so as to make out the many obscure or damaged characters. Thus I recommend that, while the microfilm images may be useful for getting an initial idea of the text, the full text should be properly scanned.
 
@@ -238,7 +234,7 @@ Here I set out a process for ensuring the efficient completion of the tasks. The
 
 Many of these tasks are of intrinsic value, even if later tasks are not completed. For example, having scanned images available is useful in and of itself, regardless of whether we have a digitized text. So there is no need to wait for the digitization process to be completed before releasing the images. Similarly, carbon dating or epigraphic assessment are of intrinsic interest. These details can be released, also, in a timely manner. Making information publicly available in this way increases interest in a project and demonstrates a commitment to accountability and transparencey.
 
-![alt text](dpcv-modules.png "Task module flow")
+![alt text](/dpcv-project-files/dpcv-modules.png "Task module flow")
 
 ## Digital Strategy
 
@@ -327,7 +323,7 @@ There is no need to write line and page numbers in the text. They can be calcula
 
 As mentioned above, I recommend having the source text typed twice by independent workers. Then the two versions can be “diffed” and the differences resolved. If you’re not familiar with how diffing works, here is a sample from two editions of the Cullavagga: on the left the 9th century Nepalese manuscript (Bendall CV) and on the right the text from the Mahāsaṅgīti edition.
 
-![alt text](bendall-cv-ms-diff.png "Ratana Sutta diff")
+![alt text](/dpcv-project-files/bendall-cv-ms-diff.png "Ratana Sutta diff")
 
 The diff engine compares the two texts and highlights any differences. This is made easy when using a segmented text, as the differences are kept to each pair of lines. So the job of the proofreader will be to resolve each case where the digital texts diverge, referring back to the original manuscript for reference.
 
