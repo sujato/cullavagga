@@ -8,6 +8,8 @@ In the National Museum of Colombo there rests one of the oldest, and arguably mo
 
 The sign accompanying the exhibit identifies it as object number NM-2995 69L1. The manuscript consists of 143 palm leaves in good preservation. It was acquired by the National Museum on the recommendation of Senarath Paranavitana, who made the initial identification of the king with Dutiya-Parakkamabāhu. The cover of the book is wood painted with depictions of deities, in a style similar to those of the Polonnaruva period. For further details one is referred to H.C.R. Bell, Annual Report 1901, Department of Archaeology.
 
+The manuscript itself includes a note (`HPIM4634.jpeg`, `HPIM4635.jpeg`) to the effect that the manuscript consists of 144 leaves, sized 23" x 2 ¼". Since the sign in the Museum says there are 143 leaves, this discrepancy should be resolved. It was purchased for Rs 1000 along with 38 other manuscripts from the late Mr. H.C.P. Bell’s estate on 12/1/1938.
+
 The colophon in the manuscript says that it was copied during the reign of Parākramabāhu II, which would place it in the 13th century. This makes it probably the oldest manuscript in Sri Lanka, and one of the oldest in the world. The only older Pali manuscript I am aware of is from Nepal, dated to the 8th or 9th century, and consisting of a few pages, coincidentally, also of the Cullavagga. Apart from that, so far as I am aware, all our current sources for Pali texts date from manuscripts of the 18th and 19th centuries. It is, therefore, imperative that the Cullavagga text be digitally preserved and transcribed. In this project outline I set forth a proposal for how to accomplish this.
 
 The aim of the project is to make available to scholars internationally the contents of this work for research. We propose a comprehensive approach to preparing a digital text. This will include the following items:
@@ -71,9 +73,9 @@ A further problem is that almost all the Sri Lankan manuscripts stem from texts 
 
 While we are not prepared to undertake the more wide-scale digital preservation envisaged by Bhikkhu Ñāṇatusita, by preserving and published DP-CV we can, perhaps, stimulate interest and further action.
 
-One of the few early Pali texts in existence was studied and published by Oskar von Hinüber in his *The Oldest Buddhist Manuscript*. This offers a transcription, description, and detailed study of a 8th–9th century Pali manuscript from Nepal by a leading Indological philologist. Von Hinüber suggests that it may have derived from a branch monastery of the Mahāvihāra on the mainland, possibly at Bodhgaya. As it happens, the text itself, while only a few pages, is from the Cullavagga. Thus it is a small portion of the same text found in the DP-CV, and when the DP-CV is published it will enable a study of the  same passage in manuscripts of the 8th, 13th, and 18th centuries. SuttaCentral has completed a digitization of this text, which we have named the Bendall Cullavagga (`bendall-cv`). [You can view here](https://github.com/sujato/bendall-cv). This was intended as a pilot project to test and demonstrate some of the methods we are proposing for DC-CV.
+One of the few early Pali texts in existence was studied and published by Oskar von Hinüber in his *The Oldest Buddhist Manuscript*. This offers a transcription, description, and detailed study of a 8th–9th century Pali manuscript from Nepal by a leading Indological philologist. Von Hinüber suggests that it may have derived from a branch monastery of the Mahāvihāra on the mainland, possibly at Bodhgaya. As it happens, the text itself, while only a few pages, is from the Cullavagga. Thus it is a small portion of the same text found in the DP-CV, and when the DP-CV is published it will enable a study of the  same passage in manuscripts of the 8th, 13th, and 18th centuries. SuttaCentral has completed a digitization of this text, which we have named the Bendall Cullavagga (`bendall-cv`). [You can view it here](https://github.com/sujato/bendall-cv). This was intended as a pilot project to test and demonstrate some of the methods we are proposing for DC-CV.
 
-When reading Pali texts in modern editions, it is quite evident that a process that might loosely be called “Sanskritization” has taken place, particularly in editions from Burma. We frequently see spelling variations even in common words, such as *supaṭipanna* vs. *suppaṭipanna*, *viriya* vs. *vīriya*, or *byākaraṇa* vs. *vyākaraṇa*. It is generally believed that this process occurred under the influence of medieval grammars such as the Saddanīti, which were based on the Sanskrit grammars. In most cases the spelling variants are inconsequential, and no more affect the meaning than, say, the choice to use UK or American spelling for English. Nevertheless, there are some cases where variant readings can affect the meaning of a passage. Thus it is important for scholars to study the nature of these changes, which can only be rigorously understood through studying early manuscripts or inscriptions.
+When reading Pali texts in modern editions, it is quite evident that a process that might loosely be called “Sanskritization” has taken place. We frequently see spelling variations even in common words, such as *supaṭipanna* vs. *suppaṭipanna*, *viriya* vs. *vīriya*, or *byākaraṇa* vs. *vyākaraṇa*. It is generally believed that this process occurred under the influence of medieval grammars such as the Saddanīti, which were based on the Sanskrit grammars. In most cases the spelling variants are inconsequential, and no more affect the meaning than, say, the choice to use UK or American spelling for English. Nevertheless, there are some cases where variant readings can affect the meaning of a passage. Thus it is important for scholars to study the nature of these changes, which can only be rigorously understood through studying early manuscripts or inscriptions.
 
 ## Literature Review
 
@@ -85,7 +87,7 @@ The manuscript is discussed in Fernando’s excellent <cite>“A Note on Three O
 
 - He confirms, on the basis of epigraphic analysis and historical context, Paranavitana’s conclusion that the manuscript was copied in the reign of Parākramabāhu II of Dambadeṇiya, and is definitely later than the Polonnaruwa period.
 - He notes some details of the script, which may be useful for our typists.
-- He says the manuscript was purchased by the National Museum from a relation of the late H.C.P. Bell, the first Archeological Commissioner of Sri Lanka.
+- He says the manuscript was purchased by the National Museum from a relation of the late H.C.P. Bell.
   - However, both the National Musuem and the Dept. of Archeology agree the manuscript is owned by the Dept. of Archeology.
 - He discusses the identification of the people and places mentioned in the colophon. The Konduruvā forest is in the vicinity of Dambadeṇiya in the North-Western Province, while Beligala is about 25km south-east of Dambadeṇiya.
 
@@ -138,11 +140,21 @@ The manuscript appears to be in good condition, but it must be carefully examine
 
 The manuscript must be scanned carefully, using good quality modern equipment, and undertaken by qualified staff.
 
-<small>There is, apparently, a microfilm of the manuscript, but this is not a good solution. Microfilm is an outdated technology, and it is difficult to find equipment to use it. In addition, it is unlikely that the microfilmed images are of quality comparable to that of modern scans.</small>
+There is a microfilm of the manuscript, but this is not a good solution. Microfilm is an outdated technology, and it is difficult to find equipment to use it. In addition, while the microfilmed images are reasonably good, they will not be of quality comparable to that of modern scans. In the `images` folder of this repo you can see a set of images made from the microfilms, made by Bhikkhu Nyanatusita. While the images are of good quality, the limitations of the source are readily apparent. Compare the quality of a microfilmed image with that of a manuscript image.
 
-The images must be saved in as high resolution as practical. The basic image format must be lossless, which rules out `jpeg`. Ideally the base format would be `tiff`, but `png`, which uses lossless compression, is probably a better option, since the file sizes are much smaller.
+![alt text](microfilm-sample.jpeg "Microfilm")
 
-The images must be saved using a sensible naming system. Since there is only one manuscript, I propose that we use a simple increment to number the pages, adding “r” and “v” for *recto* and *verso* as needed. Thus the images for the first leaf of the manuscript would be named `dp-cv-1r` and `dp-cv-1v` and so on. This might seem like a trivial detail, but maintaining a clear and consistent naming convention from the start can avoid a lot of headaches later on.
+![alt text](photograph-sample.jpeg "Photograph")
+
+Worse, several of the microfilm images appear to be so badly corrupted as to be virtually unreadable. In this kind of work it is essential that the typists and proofreaders have access to the highest possible quality images so as to make out the many obscure or damaged characters.
+
+![alt text](bad-HPIM4629.jpeg "Unreadable sample")
+
+Thus I recommend that, while the microfilm images may be useful for getting an initial idea of the text, the full text should be properly scanned.
+
+The images must be saved in as high resolution as practical. The basic image format should be lossless, which rules out `jpeg`. `png`, which uses lossless compression, is a better option.
+
+The images must be saved using a sensible naming system. Since there is only one manuscript, I propose that we use a simple increment to number the pages: `dpcv-001`, `dpcv-002` and so on. This might seem like a trivial detail, but maintaining a clear and consistent naming convention from the start can avoid a lot of headaches later on.
 
 In addition to scanning the images, it would be advisable to also print a few sets of images. These should be printed professionally, with high resolution on good quality paper using ring binding or similar. Such printed copies, which need not be great in number, would be useful for typists, rather than having to look at a screen; and in addition, print is a more lasting media than digital.
 
@@ -150,11 +162,11 @@ In addition to scanning the images, it would be advisable to also print a few se
 
 ### Engage an epigraphic expert to assess the script
 
-The script appears to be an early version of the modern Sinhalese script. It is for the most part readily legible, and anyone familiar with modern Sinhalese should be able to read it. However, it is important that the exact nature of the script be defined as clearly as possible. To this end, an expert in Sri Lankan epigraphy should be engaged.
+The script is early modern Sinhalese script. It is for the most part readily legible, and anyone familiar with modern Sinhalese should be able to read it, with a little work to become familiar with a few archaic forms. However, it is important that the exact nature of the script be defined as clearly as possible. The epigraphy has already been ably discussed by Fernando, and perhaps this may be adequate. However, I would suggest that an expert in Sri Lankan epigraphy should be engaged to review Fernando’s work and further study the script.
 
-The examination should aim to provide an independent estimate of the date of the script. Even though we have no reason to doubt the date of the manuscript as given in the colophon, epigraphic evidence can provide important corroboration. After all, it is quite possible that a colophon written at an earlier date is simply copied by a different hand at a later date.
+The examination should aim to provide an independent estimate of the date of the script, reviewing Fernando’s conclusions. Even though we have no reason to doubt the date of the manuscript as given in the colophon, epigraphic evidence can provide important corroboration.
 
-In addition to clarifying the date of the manuscript, epigraphic examination should ascertain any further features of interest in the manuscript, especially such details as may be of use to our typists. We assume that, with a little training, typists and proofreaders will be able to read the manuscript. The epigraphic assessment can verify this and advise as to any potential issues of confusion.
+In addition to clarifying the date of the manuscript, epigraphic examination should ascertain any further features of interest in the manuscript, especially such details as may be of use to our typists. We assume that, with a little training, typists and proofreaders will be able to read the manuscript. The epigraphic assessment can verify this and advise as to any potential issues of confusion. Ideally, the epigraphic expert would meet with the typists to train them.
 
    - **Responsible party:** Department of Archaeology
 
@@ -167,7 +179,6 @@ In 2007, radiocarbon dating of Gāndhāri manuscripts in Kharoṣṭhī script p
 I propose that we carbon date the DP-CV, with the aim to confirm or refute the ascription of the manuscript to the 13th century. Together with the colophon and the epigraphic assessment, this will provide a solid basis for dating the manuscript.
 
 The commercial cost of carbon dating is about US $500–$1000, so it is not prohibitive. One possible location to use is the [Australian Nuclear Science and Technology Organisation (ANSTO)](http://www.ansto.gov.au/ResearchHub/OurInfrastructure/acceleratorsciencecentre/Radiocarbondating/index.htm) at Lucas heights, who have done the carbon dating for Gandhari manuscripts, organized by Mark Allon. There is a good possibility that testing can be done here under a grant program that would cover the cost.
-
 
    - **Responsible party:** Department of Archaeology, possibly together with Mark Allon at Sydney University through ANSTO.
 
@@ -233,7 +244,7 @@ Many of these tasks are of intrinsic value, even if later tasks are not complete
 
 While it is obvious that we live in a digital age, and the primary product of our work is digital media, it is still rare in the humanities to find a considered appreciation of how to go about a digital project.
 
-Consider our source manuscript. It tells us it was copied by Sumedha Mahāthera on the instructions of the Medhaṅkara Mahāsāmi as part of a donation of giving one book to each monk in Sri Lanka with the patronage of King Parākramabāhu II. {Nyanatusita p. 369, following Fernando.}
+Consider our source manuscript. It tells us it was copied by Sumedha Mahāthera on the instructions of the Medhaṅkara Mahāsāmi as part of a donation of giving one book to each monk in Sri Lanka with the patronage of King Parākramabāhu.
 
 Now consider the state of many of our digital texts. Who were they typed by? Who organized and checked the work? Who was the sponsor? What was the method by which the work was done? We often know none of these things. The texts are produced, ascribed to an institution, and published in a digital form with little or nothing to tell us how they were made. We have better information about a 13th century manuscript than we do about most of our digital texts.
 
