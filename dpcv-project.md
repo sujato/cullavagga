@@ -29,6 +29,16 @@ To accomplish this will require the cooperation and goodwill of scholars, govern
 
 Funding for the project has not yet been discussed in detail. SuttaCentral would delighted to sponsor the commercial typing of the manuscript. Other costs, especially those involving the handling and assessment of the physical manuscript, need to be determined with the relevant institutions.
 
+## Licensing
+
+One of the distinguishing features of the Buddhist tradition is that it has always been freely available. The Buddha did not have the “closed fist of a teacher”. Rather, he made his teachings as widely available as possible. The Sangha, as traditional custodians of the texts, have followed this example, with the support of the Buddhist lay community. Hence I would strongly recommend that all resources relating to this project be made freely available.
+
+I am not familiar with the licensing laws of Sri Lanka. However, in most jurisdictions it would be the case that the *images* taken of the manuscript are subject to copyright, as they are considered to be an original creation. However the *text* is not: it is an ancient text in the public domain, and any copyright claim is legally void. Thus the typed digital text, regardless of the work and funds it took to make, would not fall within the scope of copyright, as it is not an original creative work. Assuming the Sri Lankan situation follows these principles, it would be theoretically possible to claim copyright over the images, but not the text.
+
+If the project has no clear license, or worse, if it is placed under a restrictive license, it will restrict the capacity of scholars to build upon and apply the work. There is a large body of evidence indicating that the influence of work is significantly reduced when it is restricted by copyright. I have repeatedly encountered such difficulty in dealing with works on SuttaCentral. Given that no-one creates Pali editions motivated by profit, there is no reason to apply a license.
+
+- **All text, images, and other resources created by this project should be explicitly dedicated to the Public Domain via Creative Commons Zero (CC0).**
+
 ## Some details and terminology
 
 So far as I know, the manuscript in question has not become known by any accepted abbreviation. For reference purposes, and especially for handling digital resources, it is useful to agree on a clear and consistent abbreviation and referencing system.
