@@ -137,9 +137,9 @@ A project such as this requires a variety of specialized technical skills and eq
 5. **Bhante Sujato of SuttaCentral**
    - The author of this document! I have a special interest in the digital aspects of the project, due to my extensive experience managing digital texts for suttacentral.net.
 6. **Heshan Karunaratne**
-  - IT support
+   - IT support
 7. **Yalith Wijesurendra**
-  - Project coordinator
+   - Project coordinator
 
 ## How to proceed
 
@@ -157,7 +157,7 @@ In order to achieve the project efficiently and in good time, it is important to
 
 The manuscript appears to be in good condition, but it must be carefully examined before taking any action. This must be done by an experienced expert in the field. Any recommendations must be followed so as to ensure the manuscript is not damaged by the digitization process.
 
-From the extant microfilms, it appears as if the majority of the text is quite readable. The top and bottom lines on some leaves are damaged, as are other miscellaneous cases. I would guess that 80%–90% of the text is recoverable. 
+From the extant microfilms, it appears as if the majority of the text is quite readable. The top and bottom lines on some leaves are damaged, as are other miscellaneous cases. I would guess that 80%–90% of the text is recoverable.
 
    - **Responsible party:** Department of Archaeology together with National Museum.
 
