@@ -31,11 +31,28 @@ Funding for the project has not yet been discussed in detail. SuttaCentral would
 
 ## Licensing
 
-One of the distinguishing features of the Buddhist tradition is that it has always been freely available. The Buddha did not have the “closed fist of a teacher”. Rather, he made his teachings as widely available as possible. The Sangha, as traditional custodians of the texts, have followed this example, with the support of the Buddhist lay community. Hence I would strongly recommend that all resources relating to this project be made freely available.
+One of the distinguishing features of the Buddhist tradition is that it has always been freely available. The Buddha did not have the “closed fist of a teacher”. Rather, he made his teachings as widely available as possible. The Sangha, as traditional custodians of the texts, have followed this example, with the support of the Buddhist lay community. Hence I would strongly recommend that all resources relating to this project be made freely available with no copyright restrictions.
 
-I am not familiar with the licensing laws of Sri Lanka. However, in most jurisdictions it would be the case that the *images* taken of the manuscript are subject to copyright, as they are considered to be an original creation. However the *text* is not: it is an ancient text in the public domain, and any copyright claim is legally void. Thus the typed digital text, regardless of the work and funds it took to make, would not fall within the scope of copyright, as it is not an original creative work. Assuming the Sri Lankan situation follows these principles, it would be theoretically possible to claim copyright over the images, but not the text.
+First to clarify the potential scope of copyright in this project. I am not familiar with the licensing laws of Sri Lanka. However, in most jurisdictions it would be the case that the *images* taken of the manuscript are subject to copyright, as they are considered to be an original creation. However the *text* is not: it is an ancient text in the public domain, and any copyright claim is legally void. Thus the typed digital text, regardless of the work and funds it took to make, would not fall within the scope of copyright, as it is not an original creative work. Assuming the Sri Lankan situation follows these principles, it would be theoretically possible to claim copyright over the images, but not the text.
 
-If the project has no clear license, or worse, if it is placed under a restrictive license, it will restrict the capacity of scholars to build upon and apply the work. There is a large body of evidence indicating that the influence of work is significantly reduced when it is restricted by copyright. I have repeatedly encountered such difficulty in dealing with works on SuttaCentral. Given that no-one creates Pali editions motivated by profit, there is no reason to apply a license.
+If the project has no clear license, or worse, if it is placed under a restrictive license, it will restrict the capacity of scholars to build upon and apply the work. There is a large body of evidence indicating that the influence of work is significantly reduced when it is restricted by copyright.
+
+- Abhishek Nagaraj (UC Berkely): <cite>[Does Copyright Affect Reuse? Evidence from Google Books and Wikipedia](http://abhishekn.com/files/copyright_nagaraj.pdf)</cite>
+  - “While digitization has greatly increased the reuse of knowledge, this study
+shows how these benefits might be mitigated by copyright restrictions. … I find that, while digitization encourages knowledge reuse, copyright restrictions reduce citations to copyrighted issues of Baseball Digest by up to 135% and
+affect readership by reducing traffic to affected pages by 20%.”
+- Jodie	Griffin (Staff Attorney, Public Knowledge): <cite>[The Economic Impact of Copyright](https://www.publicknowledge.org/files/TPP%20Econ%20Presentation.pdf)</cite>
+  - “Current copyright provisions in U.S. law often prevent libraries and archives from preserving the copies of works, particularly when the copyright owner is not know or cannot be found. This ultimately weakens the ability of libraries and other cultural institutions to preserve the cultural heritage of our society and make that heritage accessible for future generation.”
+- Paul J. Heald (University of Illinois College of Law): <cite>[How Copyright Keeps Works Disappeared](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2290181)</cite>
+  - “A random sample of new books for sale on Amazon.com shows more books for sale from the 1880s than the 1980s. Why? This paper presents new data on how copyright stifles the reappearance of works.”
+
+The last paper includes a particularly telling graphic. Works published before around 1920, which are freed from the suppressive effects of copyright, are massively more popular.
+
+![alt text](/dpcv-project-files/heald-graph.jpg "The effects of copyright")
+
+I have repeatedly encountered such difficulties in dealing with works on SuttaCentral. It is unfortunately common in the field for works to be published under restrictive licenses, even in cases where such licenses have no legal standing. Unclear licensing can be just as destructive. To give an example from Sri Lanka, when seeking to publish the Buddha Jayanthi translation of the Pali Tipitaka, I was advised *not* to ask for permission, as no-one would take responsibility for it. Eventually we decided to use another translation. 
+
+This whole situation is unnecessary. No-one creates Pali editions motivated by profit, so there is no reason to apply a license.
 
 - **All text, images, and other resources created by this project should be explicitly dedicated to the Public Domain via Creative Commons Zero (CC0).**
 
@@ -192,7 +209,7 @@ The commercial cost of carbon dating is about US $500–$1000, so it is not proh
 
 This is the most critical part of the project, and the one that will take the most time and attention. It is crucial that the manuscript be typed with the utmost fidelity. The typists must avoid any temptation to reconcile or correct the readings. It is precisely the differences between DP-CV and modern texts that is of interest.
 
-In typing, it is not necessary to know the language. Thus I propose:
+In typing, it is not necessary to know the language. One of the issues I have encountered in doing this sort of work is that experienced scholars are usually busy and have many projects. So if we expect them to devote many hundreds of hours to a project like this, we may have to wait a long time. Fortunately, much of the work can be done at a reasonable price by less experienced workers. We can then use the scholars’ time efficiently by having them review the final work. Thus I propose:
 
 - **Typing to be undertaken by a commercial typing firm, with proofreading done by Pali scholars.**
 
@@ -200,17 +217,15 @@ In a project such as this it is common to have the initial typing done *twice* i
 
 We are lucky these days to have very powerful “diffing” software, which can do the job of the *devas*, examining two texts and pinpointing any differences between them. I will describe below how this can be accomplished from a technical perspective.
 
-One of the issues I have encountered in doing this sort of work is that experienced scholars are usually busy and have many projects. So if we expect them to devote many hundreds of hours to a project like this, we may have to wait a long time. Fortunately, much of the work can be done at a reasonable price by less experienced workers. We can then use the scholars’ time efficiently by having them review the final work.
-
 From a project management perspective, I propose the following:
 
-1. Type the manuscript twice by a commercial firm.
+1. Type the manuscript twice.
 2. The two versions are diffed, the differences compared with the manuscript images, and the two versions merged as one.
 3. The merged text is further diffed against a modern edition of the same text, and any remaining typos or issues checked once more against the manuscript.
 
 This will, I hope, produce an accurate text. Stages two and three would ideally be done by people with some knowledge of Pali, but they need not be experienced scholars. The job is not to assess the most likely or accurate reading, but simply to check what is in the manuscript. Thus I suggest we may be able to get students or graduates to do this. However it’s possible that even these stages might be done by a commercial firm.
 
-Once a reasonably accurate version is achieved, the final text can be supplied to scholars for perusal at their convenience.
+Once an accurate version is achieved, the final text can be supplied to scholars for perusal at their convenience. Any future corrections can be incorporated at any stage.
 
 The target script for the typing should be latin, as this has become the international standard. The [ISO 15919](https://en.wikipedia.org/wiki/ISO_15919) conventions should be followed. For the convenience of the typists, it may be easiest to type in [Velthuis](https://en.wikipedia.org/wiki/Velthuis) and convert to ISO 15919.
 
