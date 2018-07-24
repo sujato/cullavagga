@@ -50,7 +50,7 @@ The last paper includes a particularly telling graphic. Works published before a
 
 ![alt text](/dpcv-project-files/heald-graph.jpg "The effects of copyright")
 
-I have repeatedly encountered such difficulties in dealing with works on SuttaCentral. It is unfortunately common in the field for works to be published under restrictive licenses, even in cases where such licenses have no legal standing. Unclear licensing can be just as destructive. To give an example from Sri Lanka, when seeking to publish the Buddha Jayanthi translation of the Pali Tipitaka, I was advised *not* to ask for permission, as no-one would take responsibility for it. Eventually we decided to use another translation. 
+I have repeatedly encountered such difficulties in dealing with works on SuttaCentral. It is unfortunately common in the field for works to be published under restrictive licenses, even in cases where such licenses have no legal standing. Unclear licensing can be just as destructive. To give an example from Sri Lanka, when seeking to publish the Buddha Jayanthi translation of the Pali Tipitaka, I was advised *not* to ask for permission, as no-one would take responsibility for it. Eventually we decided to use another translation.
 
 This whole situation is unnecessary. No-one creates Pali editions motivated by profit, so there is no reason to apply a license.
 
@@ -156,6 +156,8 @@ In order to achieve the project efficiently and in good time, it is important to
 ### Review the manuscript to ascertain the state of preservation
 
 The manuscript appears to be in good condition, but it must be carefully examined before taking any action. This must be done by an experienced expert in the field. Any recommendations must be followed so as to ensure the manuscript is not damaged by the digitization process.
+
+From the extant microfilms, it appears as if the majority of the text is quite readable. The top and bottom lines on some leaves are damaged, as are other miscellaneous cases. I would guess that 80%–90% of the text is recoverable. 
 
    - **Responsible party:** Department of Archaeology together with National Museum.
 
