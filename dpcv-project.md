@@ -10,7 +10,7 @@ The sign accompanying the exhibit identifies it as object number NM-2995 69L1. T
 
 The manuscript itself includes a note ([HPIM4634](/images/dpcv-microfilm/HPIM4634.jpeg), [HPIM4635](/images/dpcv-microfilm/HPIM4635.jpeg)) to the effect that the manuscript consists of 144 leaves, sized 23" x 2 ¼". Since the sign in the Museum says there are 143 leaves, this discrepancy should be resolved. It was purchased for Rs 1000 along with 38 other manuscripts from the late Mr. H.C.P. Bell’s estate on 12/1/1938.
 
-The colophon in the manuscript says that it was copied during the reign of Parākramabāhu II, which would place it in the 13th century. This makes it probably the oldest manuscript in Sri Lanka, and one of the oldest in the world. The only older Pali manuscript I am aware of is from Nepal, dated to the 8th or 9th century, and consisting of a few pages, coincidentally, also of the Cullavagga. Apart from that, so far as I am aware, all our current sources for Pali texts date from manuscripts of the 18th and 19th centuries. It is, therefore, imperative that the Cullavagga text be digitally preserved and transcribed. In this project outline I set forth a proposal for how to accomplish this.
+The colophon in the manuscript says that it was copied during the reign of Parākramabāhu, identified as the second of that name, which would place it in the 13th century. This makes it probably the oldest manuscript in Sri Lanka, and one of the oldest in the world. The only older published Pali manuscript I am aware of is from Nepal, dated to the 8th or 9th century, and consisting of a few pages, coincidentally, also of the Cullavagga. Apart from that, so far as I am aware, all our current sources for Pali texts date from manuscripts of the 18th and 19th centuries. There are old manuscripts in all Theravadin lands, though none so old as the 13th century; but they are rare, understudied, and so far as I know, unpublished. It is, therefore, imperative that the Cullavagga text be digitally preserved and transcribed. In this project outline I set forth a proposal for how to accomplish this.
 
 The aim of the project is to make available to scholars internationally the contents of this work for research. We propose a comprehensive approach to preparing a digital text. This will include the following items:
 
@@ -162,7 +162,7 @@ The images must be saved in as high resolution as practical. The basic image for
 
 The images must be saved using a sensible naming system. Since there is only one manuscript, I propose that we use a simple increment to number the pages: `dpcv-001`, `dpcv-002` and so on. This might seem like a trivial detail, but maintaining a clear and consistent naming convention from the start can avoid a lot of headaches later on.
 
-In addition to scanning the images, it would be advisable to also print a few sets of images. These should be printed professionally, with high resolution on good quality paper using ring binding or similar. Such printed copies, which need not be great in number, would be useful for typists, rather than having to look at a screen; and in addition, print is a more lasting media than digital.
+In addition to scanning the images, it would be advisable to also print a few sets of images. These should be printed professionally, with high resolution on good quality paper using ring-binding or similar. Such printed copies, which need not be great in number, would be useful for typists, rather than having to look at a screen; and in addition, print is a more lasting media than digital.
 
    - **Responsible party:** Department of Archaeology.
 
@@ -192,13 +192,13 @@ The commercial cost of carbon dating is about US $500–$1000, so it is not proh
 
 This is the most critical part of the project, and the one that will take the most time and attention. It is crucial that the manuscript be typed with the utmost fidelity. The typists must avoid any temptation to reconcile or correct the readings. It is precisely the differences between DP-CV and modern texts that is of interest.
 
-In typing, it is not necessary to know the language. In fact, familiarity with Pali may be a disadvantage, as it may shape the typists’ perceptions and expectations. Thus I propose:
+In typing, it is not necessary to know the language. Thus I propose:
 
 - **Typing to be undertaken by a commercial typing firm, with proofreading done by Pali scholars.**
 
-In a project such as this it is common to have the initial typing done *twice* independently, and the two versions compared. This, as scholars of the Theravada tradition would know, echoes the technique that legend says was used by Acariya Buddhaghosa. It is said that after writing the Visuddhimagga, the devas took it away, and he had to write it again; and then a third time also. Finally all three versions were compared side by side, and not one character was found to differ.
+In a project such as this it is common to have the initial typing done *twice* independently, and the two versions compared. This, as scholars of the Theravada tradition would know, echoes the technique that legend says was used by Acariya Buddhaghosa. It is said that after writing the Visuddhimagga, the *devas* took it away, and he had to write it again; and then a third time also. Finally all three versions were compared side by side, and not one character was found to differ.
 
-We are lucky these days to have very powerful “diffing” software, which can examine two texts and point out exactly any differences between them. I will describe below how this can be accomplished from a technical perspective.
+We are lucky these days to have very powerful “diffing” software, which can do the job of the *devas*, examining two texts and pinpointing any differences between them. I will describe below how this can be accomplished from a technical perspective.
 
 One of the issues I have encountered in doing this sort of work is that experienced scholars are usually busy and have many projects. So if we expect them to devote many hundreds of hours to a project like this, we may have to wait a long time. Fortunately, much of the work can be done at a reasonable price by less experienced workers. We can then use the scholars’ time efficiently by having them review the final work.
 
@@ -264,6 +264,8 @@ For many years, SuttaCentral has managed its code and source texts at Github. Gi
 
 The great advantage of using Github is that it preserves every detail about *what* changes are made, *who* changed it, *when* they changed it, and (optionally but recommended) *why* they changed it. These are recorded in an indelible and publicly accessible form on Github. In a Github repo, *nothing is ever deleted*. So if any mistake is made, no matter how small or large, we can always revert it back to the prior state. This means that we can preserve a forensic level of detail and accuracy in all our doings, setting the highest standard for reliability and transparency.
 
+Take the Bendall-CV project undertaken by SuttaCentral as an example. You can see the [full list of commits here](https://github.com/sujato/bendall-cv/commits/master). Each of these tells you what work was done by whom and when. Clicking on any of these, [to pick a random example](https://github.com/sujato/bendall-cv/commit/e3378b9866938c592f59593838a576189656f874), shows you exactly what changes were made in that commit. You can also see a [handy summary of contributers to the code](https://github.com/sujato/bendall-cv/graphs/contributors), [graphs showing the project timeline](https://github.com/sujato/bendall-cv/graphs/commit-activity), and so on.
+
 Github is free and simple to use. Anyone with access to the Github account can add or alter assets. No special software is needed; it can be done simply via a browser. For team members, it will be useful to set up a local version of the Github repository. (In Git terminology, a “repository” or “repo” is a folder that contains a set of files for a project.) Local tech support can set this up; because we’re using the same tools that programmers use themselves, pretty much every programmer will know how to do this.
 
 Since Github is designed as a workshop for creating programs, any data and files may be exported (“forked”) into other applications. Thus the data may be made use of by many different projects. In addition, this encourages the creation of multiple redundant copies, thus ensuring the survival of the information.
@@ -271,6 +273,15 @@ Since Github is designed as a workshop for creating programs, any data and files
 Thus I propose:
 
 - **All digital assets of the project—including text, images, reports, and essays—be maintained in a single Github repository.**
+
+### Limitations
+
+A few limitations and caveats should be borne in mind.
+
+- **Github repos should not be larger than 1GB**. If our images are too large, we can look into hosting them elsewhere or using Github Large File Storage.
+- **Github repo size includes all old data.** So try to upload images only once, making sure any optimizations are done before uploading (unless relying on Github’s own optimization).
+- **Never put private details on Github!** All information is public!
+- **Work must be uploaded by the workers themselves**. You can’t email a file to someone and get them to upload it. Well, you can, but it defeats the purpose. So all workers must be trained so that they understand the reason why this system is being used.
 
 ### Segmenting the text
 
@@ -281,16 +292,16 @@ Segments will almost always be the same in different editions, since variations 
 SuttaCentral uses a segmented text based on the Mahāsaṅgīti (MS) edition of the Sixth Council. Let us use this as the reference edition. Here is a sample of a segmented text in SuttaCentral’s system, taken from the first discourse of the Saṁyutta Nikāya.
 
     #. </h1></div><p>
-    #. <a class=“pts1ed” id=“pts1ed1.1”></a>
-    #. <a class=“pts2ed” id=“pts2ed1.1”></a>
-    #. <a class=“sc” id=“sc1”></a>
-    msgctxt “sn1.1:1.1”
-    msgid “Evaṃ me sutaṃ—​"
-    msgstr “So I have heard.”
+    #. <a class="pts1ed" id="pts1ed1.1"></a>
+    #. <a class="pts2ed" id="pts2ed1.1"></a>
+    #. <a class="sc" id="sc1"></a>
+    msgctxt "sn1.1:1.1"
+    msgid "Evaṃ me sutaṃ—​"
+    msgstr "So I have heard.”
 
-    msgctxt “sn1.1:1.2”
-    msgid “ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme.”
-    msgstr “At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery.”
+    msgctxt "sn1.1:1.2"
+    msgid "ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme."
+    msgstr "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery."
 
 This contains a rich set of data that is associated with each segment.
 
