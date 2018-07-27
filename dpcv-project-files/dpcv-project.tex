@@ -1,12 +1,110 @@
-# Dutiya-Parakkamabāhu Cullavagga Transcription Project
 
-![alt text](/dpcv-project-files/dpcv-nyanatusita-2004-001.jpeg "The manuscript in its wooden covers")
+\documentclass[11pt, openany,a5paper]{article}
+\usepackage[footnotes]{markdown}
+%PACKAGES%
+\usepackage[left=0.7in, right=0.7in, top=0.7in, bottom=0.7in]{geometry}
 
-## Introduction
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{letterspace}
+\usepackage{sectsty}
+\usepackage{enumitem}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[]{tocstyle}
+\usepackage[unicode, hyperfootnotes=false, hyperindex=true,colorlinks=true, urlcolor=black, linkcolor=black, citecolor=black, pdfauthor={Bhikkhu Sujato}, pdftitle={Dutiyaparakramabahu Cullavagga Transcription}, pdfsubject={Buddhism}, pdfkeywords={Buddhism, Sūtras, tipitaka, texts}, pdfproducer={LuaTeX beta-0.70.1}, pdfcreator={LaTeX2e}]{hyperref} %ACTIVE LINKS FOR PDF AND\,ADDS METADATA%
+%PACKAGES%
+
+
+
+%LINESPACE%
+\usepackage{setspace}
+\setstretch{1.12}
+\setlength{\parskip}{0pt}
+%LINESPACE%
+
+%MICROTYPOGRAPHY%
+\usepackage{microtype}
+\frenchspacing
+%MICROTYPOGRAPHY%
+
+\setmainfont[Numbers=OldStyle,BoldFont={Skolar PE Bold}]{Skolar PE}
+\setsansfont[Numbers=OldStyle,BoldFont={Skolar Sans PE-Bd}]{Skolar Sans PE}
+\setmonofont[Scale=MatchLowercase]{Source Code Pro}
+\newfontfamily\Secfont{Skolar Sans PE Sb}
+\sectionfont{\Secfont}
+\subsectionfont{\Secfont}
+
+
+\settocstylefeature[]{leaders}{\hfill}%ELIMINATES DOTS%
+\settocstylefeature[0]{entryvskip}{0.9em}%VERTICAL SPACE
+
+
+
+\setlist{noitemsep}
+
+\widowpenalty=5000
+\clubpenalty=5000
+
+
+
+%DOCUMENT\,INFO. NOT\,USED\,IN\,TEXT.%
+\title{Dutiya-Parakkamabāhu Cullavagga Transcription Project}
+\author{Bhikkhu Sujato}
+\date{August 2018}
+%DOCUMENT\,INFO. NOT\,USED\,IN\,TEXT.%
+\setkeys{Gin}{width=\linewidth}
+\markdownSetup{renderers={
+  image = {\begin{figure}[hbt!]
+    \centering
+    \includegraphics{#3}%
+    \ifx\empty#4\empty\else
+    \caption{#4}%
+    \fi
+    \label{fig:#1}%
+    \end{figure}}
+}}
+
+\setkeys{Gin}{width=11.2cm}
+
+\makeatletter
+\renewenvironment{quotation}
+           {\list{}{\listparindent 1.5em%
+                    %\itemindent    \listparindent
+                    %\rightmargin \leftmargin
+                    \parsep        \z@ \@plus\p@}%
+            \item\relax}
+           {\endlist}
+\makeatother
+
+
+\begin{document}
+
+
+
+\maketitle
+
+\thispagestyle{empty}
+
+\begin{markdown}
+
+![alt text](dpcv-nyanatusita-2004-001.jpeg "The manuscript in its wooden covers")
+
+\end{markdown}
+
+\newpage
+
+\tableofcontents
+
+
+\begin{markdown}
+
+
+# Introduction
 
 In the National Museum of Colombo there rests one of the oldest, and arguably most important, Pali manuscripts found anywhere in the world. It contains the Cullavagga, which consists of chapters 11–22 of the *Khandhaka* portion of the Pali Vinaya.
 
-![alt text](/dpcv-project-files/dpcv-nyanatusita-2004-020.jpeg "A leaf of the manuscript and the decorative cover")
+![alt text](dpcv-nyanatusita-2004-020.jpeg "A leaf of the manuscript and the decorative cover")
 
 The sign accompanying the exhibit identifies it as object number NM-2995 69L1. The manuscript consists of 143 palm leaves in good preservation. It was acquired by the National Museum on the recommendation of Senarath Paranavitana, who made the initial identification of the king with Dutiya-Parakkamabāhu. The cover of the book is wood painted with depictions of deities, in a style similar to those of the Polonnaruva period. For further details one is referred to H.C.R. Bell, Annual Report 1901, Department of Archaeology.
 
@@ -38,11 +136,11 @@ The aim of the project is to make available to scholars internationally the cont
 
 To accomplish this will require the cooperation and goodwill of scholars, governmental organizations, and universities.
 
-## Some details and terminology
+# Some details and terminology
 
 So far as I know, the manuscript in question has not become known by any accepted abbreviation. For reference purposes, and especially for handling digital resources, it is useful to agree on a clear and consistent abbreviation and referencing system.
 
-### Naming the manuscript
+## Naming the manuscript
 
 Since the manuscript is said to have been sponsored by King Parākramabāhu II, it seems sensible to name it after him. The Pali term would be Dutiya-Parakkamabāhu. (See [Dīpavaṁsa II 37.84](http://gretil.sub.uni-goettingen.de/gretil/2_pali/3_chron/dipav_2u.htm) *dutiya-parakkama-bhuja*.) Thus I propose the following:
 
@@ -50,13 +148,13 @@ Since the manuscript is said to have been sponsored by King Parākramabāhu II, 
 
 Note that, while the Sanskritic form *parākramabāhu* has become standard, in the [Dīpavaṁsa II](http://gretil.sub.uni-goettingen.de/gretil/2_pali/3_chron/dipav_2u.htm) and the [Mahāvaṁsa](http://gretil.sub.uni-goettingen.de/gretil/2_pali/3_chron/mahava_u.htm) the form *parakkamabhuja* is more common. *Bāhu* and *bhuja* are synonyms, both meaning “arm”. In the Mahāvaṁsa, for example, *parakkamabāhu* appears once only, while *parakkamabhuja* occurs 56 times. Until it is edited, of course, we cannot say what form is used in the manuscript itself. The Sanskritic drift of the king’s name is, aptly enough, an example of the kind of problem that we wish to address through studying this manuscript.
 
-### Naming the chapters
+## Naming the chapters
 
 The Cullavagga is the second portion of the Khandhaka section of the Pali Vinaya. In the Khandhakas, it is preceded by the Mahāvagga, which consists of 10 chapters. The Cullavagga consists of 12 chapters; hopefully the manuscript contains all twelve, though this remains to be confirmed.
 
 Thus we have:
 
-![alt text](/dpcv-project-files/khandhaka-structure.png "Structure of the Vinaya Khandhakas")
+![alt text](khandhaka-structure.png "Structure of the Vinaya Khandhakas")
 
 So for the numbering of chapters, I propose the following:
 
@@ -66,7 +164,7 @@ This follows the conventions established on SuttaCentral, where Kd stands for Kh
 
 Note that the division between Mahāvagga and Cullavagga is not intrinsic to the texts, and does not correspond to any meaningful division of content. It is merely a division of convenience established for recitation and copying manuscripts. Other Vinayas in Chinese, Sanskrit, and Tibetan lack this division and simply organize this portion of the texts as Khandhakas (Skt. *skandhaka*, sometimes also called *vastu*, etc.).
 
-## Background
+# Background
 
 The texts of the Pali Tipiṭaka are our most important witness for the original teachings and person of the Buddha. Their significance has always been recognized in Theravada Buddhism, and became known internationally in the 19th century through the work of scholars such as [T.W. Rhys Davids](http://0-www.worldcat.org.novacat.nova.edu/identities/lccn-n50035648/) in England and [Bunyiu Nanjio](http://0-www.worldcat.org.novacat.nova.edu/identities/lccn-n81033028/) in Japan.
 
@@ -92,7 +190,7 @@ As it happens, the text itself, while only a few pages, is from the Cullavagga. 
 
 When reading Pali texts in modern editions, it is quite evident that a process that might loosely be called “Sanskritization” has taken place. We frequently see spelling variations even in common words, such as *supaṭipanna* vs. *suppaṭipanna*, *viriya* vs. *vīriya*, or *byākaraṇa* vs. *vyākaraṇa*. It is generally believed that this process occurred under the influence of medieval grammars such as the Saddanīti, which were based on the Sanskrit grammars. In most cases the spelling variants are inconsequential, and no more affect the meaning than, say, the choice to use UK or American spelling for English. Nevertheless, there are some cases where variant readings can affect the meaning of a passage. Thus it is important for scholars to study the nature of these changes, which can only be rigorously understood through studying early manuscripts or inscriptions.
 
-## Literature Review
+# Literature Review
 
 This manuscript has been mentioned a number of times in published articles.
 
@@ -104,7 +202,7 @@ Fernando discusses the colophon, which poses a number of problems of interpretat
 
 > This is the Pāli book Suluvaga that the Venerable Great Lord Medhaṅkara of the Konduruvā forest caused to be transcribed by the Grand Thera Sumedha of Beligala as a gift to the *saṅgha*, after collating a whole *nikāya*, being satisfied (with regard to its accuracy) after consultation (with competent scholars), with the patronage of King Parākramabāhu, the Sovereign of Laṅkā and the participation of fellow-monks living the holy life, such as *Theras* and *Grand Theras*, for the purpose of transcribing (providing) one book for each monk as a gift to the venerable *saṅgha* living in the island of Laṅkā.
 
-## Who is involved
+# Who is involved
 
 A project such as this requires a variety of specialized technical skills and equipment, and can only be accomplished through the cooperation of several parties. We will endeavor to work together with all parties who have an interest in the matter. Here is a preliminary note on relevant parties so far. Note that this is merely a record of initial meetings and does not imply that these people or organizations have made any commitment to the project.
 
@@ -122,11 +220,11 @@ A project such as this requires a variety of specialized technical skills and eq
 
 7. **Yalith Wijesurendra**:  Project coordinator.
 
-## Funding
+# Funding
 
 Funding for the project has not yet been discussed in detail. SuttaCentral would delighted to sponsor the commercial typing of the manuscript. Other costs, especially those involving the handling and assessment of the physical manuscript, need to be determined with the relevant institutions.
 
-## Licensing
+# Licensing
 
 One of the distinguishing features of the Buddhist tradition is that it has always been freely available. The Buddha did not have the “closed fist of a teacher”. Rather, he made his teachings as widely available as possible. The Sangha, as traditional custodians of the texts, have followed this example, with the support of the Buddhist lay community. Hence I would strongly recommend that all resources relating to this project be made freely available with no copyright restrictions.
 
@@ -150,7 +248,7 @@ Paul J. Heald (University of Illinois College of Law): *[How Copyright Keeps Wor
 
 The last paper includes a particularly telling graphic. Works published before around 1920, which are freed from the suppressive effects of copyright, are massively more popular. The dip in the graph below indicates the suppressive effect of copyright.
 
-![alt text](/dpcv-project-files/heald-graph.jpg "The effects of copyright")
+![alt text](heald-graph.jpg "The effects of copyright")
 
 I have repeatedly encountered such difficulties in dealing with works on SuttaCentral. It is unfortunately common in the field for works to be published under restrictive licenses, even in cases where such licenses have no legal standing. Unclear licensing can be just as destructive. To give an example from Sri Lanka, when seeking to publish the Buddha Jayanthi translation of the Pali Tipiṭaka, I was advised *not* to ask for permission, as no-one would take responsibility for it. Eventually we decided to use another translation.
 
@@ -158,7 +256,7 @@ This whole situation is unnecessary. No-one creates Pali editions motivated by p
 
 > **All text, images, and other resources created by this project should be explicitly dedicated to the Public Domain via Creative Commons Zero (CC0).**
 
-## How to proceed
+# How to proceed
 
 Here I will outline what I envisage as the scope of the project. This will have three aspects:
 
@@ -168,11 +266,11 @@ Here I will outline what I envisage as the scope of the project. This will have 
 
 - Present a model for digital management of the project.
 
-## Task modules
+# Task modules
 
 In order to achieve the project efficiently and in good time, it is important to break the project down into clear subtasks, each with an agreed body or person to take responsibility. Here is the initial proposal of this.
 
-### Physically examine the manuscript
+## Physically examine the manuscript
 
 The manuscript appears to be in good condition, but it must be carefully examined before taking any action. This must be done by an experienced expert in the field. Any recommendations must be followed so as to ensure the manuscript is not damaged by the digitization process.
 
@@ -180,19 +278,19 @@ From the extant microfilms, it appears as if the majority of the text is quite r
 
    > **Responsible party:** Department of Archaeology together with National Museum.
 
-### Scan the manuscript
+## Scan the manuscript
 
 The manuscript must be scanned carefully by qualified staff using good quality modern equipment.
 
 There is a microfilm of the manuscript, but this is not a good solution. Microfilm is an outdated technology, and it is difficult to find equipment to use it. In addition, while the microfilmed images are reasonably good, they will not be of quality comparable to that of modern scans. In the [images](https://github.com/sujato/cullavagga/tree/master/images) folder of the Github repository for this project you can see a set of images made from the microfilms, made by Bhikkhu Nyanatusita. While the images are of good quality, the limitations of the source are readily apparent. Compare the quality of a microfilmed image with that of a manuscript image.
 
-![alt text](/dpcv-project-files/microfilm-sample.jpeg "Microfilm image of one leaf of DP-CV")
+![alt text](microfilm-sample.jpeg "Microfilm image of one leaf of DP-CV")
 
-![alt text](/dpcv-project-files/photograph-sample.jpeg "Photograph of one leaf of DP-CV")
+![alt text](photograph-sample.jpeg "Photograph of one leaf of DP-CV")
 
 Worse, several of the microfilm images appear to be so badly corrupted as to be virtually unreadable.
 
-![alt text](/dpcv-project-files/bad-HPIM4629.jpeg "Unreadable leaf of DP-CV")
+![alt text](bad-HPIM4629.jpeg "Unreadable leaf of DP-CV")
 
 In this kind of work it is essential that the typists and proofreaders have access to the highest possible quality images so as to make out the many obscure or damaged characters. Thus I recommend that, while the microfilm images may be useful for getting an initial idea of the text, the full text should be properly scanned.
 
@@ -204,7 +302,7 @@ In addition to scanning the images, it would be advisable to also print a few se
 
    > **Responsible party:** Department of Archaeology.
 
-### Engage an epigraphic expert to assess the script
+## Engage an epigraphic expert to assess the script
 
 The script is early modern Sinhalese script. It is for the most part readily legible, and anyone familiar with modern Sinhalese should be able to read it, with a little work to become familiar with a few archaic forms. However, it is important that the exact nature of the script be defined as clearly as possible.
 
@@ -216,7 +314,7 @@ In addition to clarifying the date of the manuscript, epigraphic examination sho
 
    > **Responsible party:** Department of Archaeology
 
-### Carbon date the manuscript
+## Carbon date the manuscript
 
 As noted above, there is at present no reason to doubt the dating of the manuscript. However historical dates are always uncertain and it is wise to confirm them using multiple independent methods wherever possible. Carbon dating is a widely used and relatively reliable method of dating ancient artifacts.
 
@@ -228,7 +326,7 @@ The commercial cost of carbon dating is about US $500–$1000, so it is not proh
 
    > **Responsible party:** Department of Archaeology, possibly together with Mark Allon at Sydney University through ANSTO.
 
-### Have the manuscript typed and proofread
+## Have the manuscript typed and proofread
 
 This is the most critical part of the project, and the one that will take the most time and attention. It is crucial that the manuscript be typed with the utmost fidelity. The typists must avoid any temptation to reconcile or correct the readings. It is precisely the differences between DP-CV and modern texts that is of interest.
 
@@ -252,7 +350,7 @@ This should produce an accurate text. Once an accurate version is achieved, the 
 
 The target script for the typing should be latin, as this has become the international standard. The [ISO 15919](https://en.wikipedia.org/wiki/ISO_15919) conventions should be followed. For the convenience of the typists, it may be easiest to type in [Velthuis](https://en.wikipedia.org/wiki/Velthuis) and convert to ISO 15919.
 
-### Publish digitally and in print
+## Publish digitally and in print
 
 The primary medium for Pali publishing these days is online. Digital text is highly suited to Pali, as it enables us to deal with the large quantity of often obscure works. We will publish the text on SuttaCentral. Our platform will enable a reader to compare the text with other editions, and to see the images next to the text.
 
@@ -262,7 +360,7 @@ If anyone wishes to produce a paper edition, we can support this. SuttaCentral p
 
 Since ISO 15919 supports Pali precisely, it is possibly to losslessly convert it to other scripts, especially those of Indic derivation. We do this automatically on SuttaCentral. So anyone who wants to publish in Sinhala or Devanagari script may do so.
 
-### Academic documentation
+## Academic documentation
 
 As the project is of considerable interest to Pali and other Indological scholars, it should be described in international journals. Such essays should document various aspects of the project, including:
 
@@ -276,19 +374,19 @@ As the project is of considerable interest to Pali and other Indological scholar
 
 5. Investigation as to the provenance of the manuscript, and circumstances of its finding and preservation.
 
-### Publicity and popular awareness
+## Publicity and popular awareness
 
 The National Museum and/or other bodies may wish to publicize the work to raise awareness of Sri Lanka’s textual history. This might consist of improvements to the museum display, website documentation, leaflets, and so on.
 
-## Flow for completing each module
+# Flow for completing each module
 
 Here I set out a process for ensuring the efficient completion of the tasks. The principle is that, so far as possible, tasks may be completed in parallel. This means that, unless it is really necessary, none of the team members has to wait for other team members to finish their work. This process is inspired by task management in the modern “Agile” process for teams, which empasizes “release early and often”.
 
 Many of these tasks are of intrinsic value, even if later tasks are not completed. For example, having scanned images available is useful in and of itself, regardless of whether we have a digitized text. So there is no need to wait for the digitization process to be completed before releasing the images. Similarly, carbon dating or epigraphic assessment are of intrinsic interest. These details can be released, also, in a timely manner. Making information publicly available in this way increases interest in a project and demonstrates a commitment to accountability and transparencey.
 
-![alt text](/dpcv-project-files/dpcv-modules.png "Task module flow")
+![alt text](dpcv-modules.png "Task module flow")
 
-## Digital Strategy
+# Digital Strategy
 
 We live in a digital age and the primary product of our work is digital media. Thus the manner in which we undertake our project should reflect best practices for digital media. While this may seem obvious, it is, unfortunately, very much the exception in the field.
 
@@ -300,7 +398,7 @@ Even worse, as a result of poor digital management strategies, it is unfortunate
 
 We can do better. What, we should ask, is the gold standard for creating and maintaining digital projects? In my view, the answer is this: it is what programmers use for their own projects. What we are producing is, in fact, just code. At its core it is binary data, no different from what programmers produce. Thus I propose that we use the state-of-the-art version control offered by Git to manage our digital assets.
 
-### Use Github for all assets
+## Use Github for all assets
 
 For many years, SuttaCentral has managed its code and source texts at Github. Github is a public cloud service for hosting code and files using the open-source Git version control system. Github is extremely stable and secure, being used by major software companies such as Google, Microsoft, and Facebook for their own code.
 
@@ -316,7 +414,7 @@ Thus I propose:
 
 > **All digital assets of the project—including text, images, reports, and essays—be maintained in a single Github repository.**
 
-### Segmenting the text
+## Segmenting the text
 
 Segmenting of text refers to breaking it into meaningful semantic segments, for example, a sentence. This aids looking up the appropriate segment, and also helps computers process the difference between texts.
 
@@ -359,7 +457,7 @@ Even though there is no metadata at all, we can keep the segments coordinated wi
 
 When our typists are working on the DP-CV, they will keep one window on their computer to see this reference edition. Each time they come to a new segment, they mirror the reference edition by pressing`Enter` to create a new line. At the end of the project we can import the new text into the same framework as the reference edition. By this extremely simple method we can integrate our new edition with all the rich associated data from the reference edition.
 
-### Text input
+## Text input
 
 The text of each manuscript is to be inputted as accurately and literally as possible. There is no editorial input; no corrections, identifications of variants, restoration of text, and the like. Texts are romanized, but without adding punctuation, capitals, or any other features. This keeps the job of the typist as simple as possible.
 
@@ -383,7 +481,7 @@ That’s all that is required to create a new digitized edition. There is no nee
 
 As mentioned above, I recommend having the source text typed twice by independent workers. Then the two versions can be “diffed” and the differences resolved. If you’re not familiar with how diffing works, here is a sample from two editions of the Cullavagga: on the left the 9th century Nepalese manuscript (Bendall CV) and on the right the text from the Mahāsaṅgīti edition.
 
-![alt text](/dpcv-project-files/bendall-cv-ms-diff.png "Ratana Sutta diff")
+![alt text](bendall-cv-ms-diff.png "Ratana Sutta diff")
 
 The diff engine compares the two texts and highlights any differences. This is made easy when using a segmented text, as the differences are kept to each pair of lines.
 
@@ -395,7 +493,7 @@ I recommend that this process be done twice: once by comparing the two typed fil
 
 Once the typing is finished, we calculate the line and page numbers of the manuscript based on the inserted glyphs. Then this reference data can be added to the set of data for all the editions. The newly typed text can be imported into the metadata structure as seen above, and then used for display, reference, translation, and so on.
 
-## Beyond this project
+# Beyond this project
 
 Once the project is completed and the text digitized, the text may be used in various applications. While the text is reasonably safe on Github, we should try to make it available on sites such as [GRETIL](http://gretil.sub.uni-goettingen.de/) and the [Internet Archive](https://archive.org/). The more widely disseminated the text is, the harder it is for it to become entirely lost.
 
@@ -413,7 +511,7 @@ There are a number of manuscripts of a similar age, which are also deserving of 
 
 I believe that the methods set forth here will achieve an accurate and usable text with a reasonable amount of effort, and would encourage all parties involved to continue the work.
 
-## Bibliography
+# Bibliography
 
 - Allon, M., Salomon, R., Jacobsen, G., Zoppi, U. (2007). “*Radiocarbon Dating of Kharosthi Fragments from the Schøyen and Senior Manuscript Collections*”. In Jens Braarvig (Eds.), *Buddhist Manuscripts in the Schøyen Collection*, vol. iii: pp. 279–291. Oslo, Norway: Hermes Publishing.
 - De Silva, W.A.. *Catalogue of Palm Leaf Manuscripts*, Colombo 1938, No. 2363
@@ -421,3 +519,6 @@ I believe that the methods set forth here will achieve an accurate and usable te
 - Lancaster, Lewis. “*Digital Input of Buddhist Texts*” in Damien Keown, Charles S. Prebish, *Encyclopedia of Buddhism*, pp 288–296, Routledge 2013.
 - Nyanatusita, Bhikkhu “*Pali Manuscripts of Sri Lanka*”, in *From Birch Bark to Digital Data: Recent Advances in Buddhist Manuscript Research*. Papers Presented at the Conference “Indic Buddhist Manuscripts: The State of the Field”, Stanford, June 15–19, 2009, edited by Paul Harrison and Jens-Uwe Hartmann, and published by Österreichische Akademie der Wissenschaften Wien in 2014.
 - Sujato, Bhikkhu and Brahmali, Bhikkhu. *The Authenticity of the Early Buddhist Texts*. Oxford Center for Buddhist Studies, 2014.
+
+\end{markdown}
+\end{document}
