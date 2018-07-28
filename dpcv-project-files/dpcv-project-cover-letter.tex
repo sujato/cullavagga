@@ -1,0 +1,116 @@
+\documentclass[11pt, openany,a4paper]{article}
+\usepackage[footnotes]{markdown}
+%PACKAGES%
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{letterspace}
+\usepackage{sectsty}
+\usepackage{enumitem}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[]{tocstyle}
+\usepackage[unicode, hyperfootnotes=false, hyperindex=true,colorlinks=true, urlcolor=black, linkcolor=black, citecolor=black, pdfauthor={Bhikkhu Sujato}, pdftitle={Memorandum of Understanding: Digitizing the Dutiya-Parakkamabāhu Cullavagga}, pdfsubject={Buddhism}, pdfkeywords={Buddhism, Sūtras, tipitaka, texts}, pdfproducer={LuaTeX beta-0.70.1}, pdfcreator={LaTeX2e}]{hyperref} %ACTIVE LINKS FOR PDF AND\,ADDS METADATA%
+%PACKAGES%
+\usepackage{multicol}
+
+
+
+%LINESPACE%
+\usepackage{setspace}
+\setstretch{1.12}
+\setlength{\parskip}{0pt}
+%LINESPACE%
+
+%MICROTYPOGRAPHY%
+\usepackage{microtype}
+\frenchspacing
+%MICROTYPOGRAPHY%
+
+\setmainfont[Numbers=OldStyle,BoldFont={Skolar PE Bold}]{Skolar PE}
+\setsansfont[Numbers=OldStyle,BoldFont={Skolar Sans PE-Bd}]{Skolar Sans PE}
+\setmonofont[Scale=MatchLowercase]{Source Code Pro}
+\newfontfamily\Secfont{Skolar Sans PE Sb}
+\sectionfont{\Secfont}
+\subsectionfont{\Secfont}
+
+
+\settocstylefeature[]{leaders}{\hfill}%ELIMINATES DOTS%
+\settocstylefeature[0]{entryvskip}{0.9em}%VERTICAL SPACE
+
+
+
+\setlist{noitemsep}
+
+\widowpenalty=5000
+\clubpenalty=5000
+
+
+
+%DOCUMENT\,INFO. NOT\,USED\,IN\,TEXT.%
+\title{Memorandum of Understanding: Digitizing the Dutiya-Parakkamabāhu Cullavagga}
+\author{}
+\date{November 8 2018}
+%DOCUMENT\,INFO. NOT\,USED\,IN\,TEXT.%
+\setkeys{Gin}{width=\linewidth}
+\markdownSetup{renderers={
+  image = {\begin{figure}[hbt!]
+    \centering
+    \includegraphics{#3}%
+    \ifx\empty#4\empty\else
+    \caption{#4}%
+    \fi
+    \label{fig:#1}%
+    \end{figure}}
+}}
+
+\setkeys{Gin}{width=11.2cm}
+
+\makeatletter
+\renewenvironment{quotation}
+           {\list{}{\listparindent 1.5em%
+                    %\itemindent    \listparindent
+                    %\rightmargin \leftmargin
+                    \parsep        \z@ \@plus\p@}%
+            \item\relax}
+           {\endlist}
+\makeatother
+
+\usepackage{soulutf8}
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin {center}
+
+
+{\textsc{\huge SuttaCentral}}\\
+
+\vspace{0.2em}
+\textsf{\emph{Early Buddhist texts, translations, and parallels}}
+\vspace{2em}
+
+\end {center}
+
+\noindent Dear Sir or Madam,
+
+In May of 2018 I conceived the idea to digitize the Dutiya-Parakkamabāhu Cullavagga housed in the National Museum. I brought my proposal to Ven. Prof. Medagoda Abhayatissa of University of Sri Jayawardenepura, Prasanna Ratnayake, the Acting Director General of the Sri Lankan Department of Archaeology, Mrs. Sanuja Kasthuriarachchi, the Acting Director of the National Museum of Colombo, and Prof. Nimal de Silva, adviser to the Ministry of Buddhasasana. My proposal was greeted favorably by these parties, so an initial letter of proposal was sent by myself and Ven Abhayatissa on 24 May, 2018.
+
+Since then I have researched the manuscript and fleshed out the details for the project. These ideas may be found in the document “Dutiya-Parakkamabāhu Cullavagga Transcription Project”. Please bear in mind that everything in this document is simply a proposal, and feedback and criticism is welcomed. I would invite all those interested to consider my proposals, and work together to improve them. This is an evolving document, and we will expand and correct it as the project develops.
+
+I wish to emphasize that I have no experience in dealing with manuscripts, and have no authority in the field. I am simply a monk who has studied Pali and Buddhism. However, for the past 15 years I have run a website called SuttaCentral, which handles over 70,000 Buddhist texts in over 40 languages. I have recently completed a translation of the four main Pali \emph{nikāyas} into English. Hence I have considerable experience in managing digital texts, and for this reason I have described the digitization process in some detail. I look at this project as a learning experience for myself, and look forward to benefiting from the experience and expertise of the various partners.
+
+To provide support on the ground, I have asked Yalith Wijesurendra to act as project coordinator. In addition, I have asked Heshan Karunaratne to provide IT support and coordination when that becomes necessary.
+
+I plan to return to Colombo for a week from the 6th–13th November, in order to make a proper start on this project. At that time I would like to meet with the partners and sign a Memorandum of Understanding. I hope the partners have an opportunity to review my project proposal and offer feedback before then.
+
+Yours in Dhamma
+
+\includegraphics[width=.3\linewidth]{bhante-sujato.png}
+
+Bhante Sujato
+
+1/8/2018
+
+\end{document}

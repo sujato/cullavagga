@@ -1,7 +1,7 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.6.2)  28 JUL 2018 08:52
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.6.2)  28 JUL 2018 09:40
  restricted system commands enabled.
-**dpcv-project.tex
-(./dpcv-project.tex
+**dpcv-project-cover-letter.tex
+(./dpcv-project-cover-letter.tex
 LaTeX2e <2017-04-15>
 Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
 Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.096 seconds
+luaotfload | main : initialization completed in 0.099 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -719,24 +719,73 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip56
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+\c@tracingmulticols=\count270
+\mult@box=\box45
+\multicol@leftmargin=\dimen158
+\c@unbalance=\count271
+\c@collectmore=\count272
+\doublecol@number=\count273
+\multicoltolerance=\count274
+\multicolpretolerance=\count275
+\full@width=\dimen159
+\page@free=\dimen160
+\premulticols=\dimen161
+\postmulticols=\dimen162
+\multicolsep=\skip57
+\multicolbaselineskip=\skip58
+\partial@page=\box46
+\last@line=\box47
+\maxbalancingoverflow=\dimen163
+\mult@rightbox=\box48
+\mult@grightbox=\box49
+\mult@gfirstbox=\box50
+\mult@firstbox=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\c@columnbadness=\count276
+\c@finalcolumnbadness=\count277
+\last@try=\dimen164
+\multicolovershoot=\dimen165
+\multicolundershoot=\dimen166
+\mult@nat@firstbox=\box69
+\colbreak@box=\box70
+\mc@col@check@num=\count278
+)
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
 \MT@toks=\toks23
-\MT@count=\count270
+\MT@count=\count279
 LaTeX Info: Redefining \textls on input line 793.
-\MT@outer@kern=\dimen158
+\MT@outer@kern=\dimen167
 LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
-\MT@listname@count=\count271
+\MT@listname@count=\count280
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-luatex.def
 File: microtype-luatex.def 2018/01/14 v2.7a Definitions specific to luatex (RS)
 Lua module: microtype 2018/01/14 2.7a microtype module.
 LaTeX Info: Redefining \lsstyle on input line 679.
 LaTeX Info: Redefining \lslig on input line 679.
-\MT@outer@space=\skip57
+\MT@outer@space=\skip59
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -746,7 +795,7 @@ File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
 luaotfload | cache : Lookup cache loaded from /home/user/.texlive2017/texmf-var/
 luatex-cache/generic/names/luaotfload-lookup-cache.luc.(load luc: /home/user/.te
 xlive2017/texmf-var/luatex-cache/generic/fonts/otl/skolarpe-regular.luc)
-\g__fontspec_family_SkolarPE_int=\count272
+\g__fontspec_family_SkolarPE_int=\count281
 (load luc: /home/user/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/skol
 arpe-bold.luc)
 .................................................
@@ -785,7 +834,7 @@ neric/fonts/otl/skolarpe-italic.luc)
 LaTeX Info: Redefining \rmfamily on input line 31.
 (load luc: /home/user/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/skol
 arsanspe-rg.luc)
-\g__fontspec_family_SkolarSansPE_int=\count273
+\g__fontspec_family_SkolarSansPE_int=\count282
 (load luc: /home/user/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/skol
 arsanspe-bd.luc)
 .................................................
@@ -829,7 +878,7 @@ cecodepro-regular.luc)
 . 
 . SourceCodePro scale = 0.9958340228243294.
 .................................................
-\g__fontspec_family_SourceCodePro_int=\count274
+\g__fontspec_family_SourceCodePro_int=\count283
 (load luc: /home/user/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/sour
 cecodepro-boldit.luc)(load luc: /home/user/.texlive2017/texmf-var/luatex-cache/g
 eneric/fonts/otl/sourcecodepro-bold.luc)(load luc: /home/user/.texlive2017/texmf
@@ -911,7 +960,7 @@ case].
 LaTeX Info: Redefining \ttfamily on input line 33.
 (load luc: /home/user/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/skol
 arsanspe-sb.luc)
-\g__fontspec_family_SkolarSansPESb_int=\count275
+\g__fontspec_family_SkolarSansPESb_int=\count284
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -943,37 +992,27 @@ arsanspe-sb.luc)
 
 exclude: 
 exclude: 
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/soulutf8.sty
+Package: soulutf8 2016/05/16 v1.1 Permit use of UTF-8 characters in soul (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks24
+\SOUL@lasttoken=\toks25
+\SOUL@cmds=\toks26
+\SOUL@buffer=\toks27
+\SOUL@token=\toks28
+\SOUL@spaceskip=\skip60
+\SOUL@ttwidth=\dimen168
+\SOUL@uldp=\dimen169
+\SOUL@ulht=\dimen170
+))
 
 LaTeX Warning: Unused global option(s):
     [openany].
 
-(./dpcv-project.aux
-
-LaTeX Warning: Label `fig:alt text' multiply defined.
-
-
-LaTeX Warning: Label `fig:alt text' multiply defined.
-
-
-LaTeX Warning: Label `fig:alt text' multiply defined.
-
-
-LaTeX Warning: Label `fig:alt text' multiply defined.
-
-
-LaTeX Warning: Label `fig:alt text' multiply defined.
-
-
-LaTeX Warning: Label `fig:alt text' multiply defined.
-
-
-LaTeX Warning: Label `fig:alt text' multiply defined.
-
-
-LaTeX Warning: Label `fig:alt text' multiply defined.
-
-)
-\openout1 = dpcv-project.aux
+(./dpcv-project-cover-letter.aux)
+\openout1 = dpcv-project-cover-letter.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
 LaTeX Font Info:    ... okay on input line 81.
@@ -993,19 +1032,20 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
 LaTeX Font Info:    ... okay on input line 81.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
 LaTeX Font Info:    ... okay on input line 81.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count276
-\scratchdimen=\dimen159
-\scratchbox=\box45
-\nofMPsegments=\count277
-\nofMParguments=\count278
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count279
-\MPscratchDim=\dimen160
-\MPnumerator=\count280
-\makeMPintoPDFobject=\count281
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count285
+\scratchdimen=\dimen171
+\scratchbox=\box71
+\nofMPsegments=\count286
+\nofMParguments=\count287
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count288
+\MPscratchDim=\dimen172
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
+\everyMPtoPDFconversion=\toks30
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1027,24 +1067,24 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a5paper
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(50.58878pt, 319.92323pt, 50.58878pt)
-* v-part:(T,H,B)=(50.58878pt, 496.33032pt, 50.58878pt)
-* \paperwidth=421.10078pt
-* \paperheight=597.50787pt
-* \textwidth=319.92323pt
-* \textheight=496.33032pt
-* \oddsidemargin=-21.68121pt
-* \evensidemargin=-21.68121pt
-* \topmargin=-58.68121pt
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
 * \footskip=30.0pt
-* \marginparwidth=4.0pt
+* \marginparwidth=50.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
@@ -1153,7 +1193,7 @@ Package tocstyle Info: prepare \l@subsubsection for redefinition on input line 8
 1.
 Package tocstyle Info: prepare \l@table for redefinition on input line 81.
 Package tocstyle Info: prepare \l@figure for redefinition on input line 81.
-\AtBeginShipoutBox=\box46
+\AtBeginShipoutBox=\box72
 Package hyperref Info: Link coloring ON on input line 81.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1162,439 +1202,56 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count282
+\c@section@level=\count291
 )
 LaTeX Info: Redefining \ref on input line 81.
 LaTeX Info: Redefining \pageref on input line 81.
 LaTeX Info: Redefining \nameref on input line 81.
 
-(./dpcv-project.out) (./dpcv-project.out)
+(./dpcv-project-cover-letter.out) (./dpcv-project-cover-letter.out)
 \@outlinefile=\write6
 
-\openout6 = dpcv-project.out
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 85.
-
-\openout5 = dpcv-project.markdown.in
-Package markdown Info: Buffering markdown input into the temporary input file "d
-pcv-project.markdown.in" and scanning for the closing token sequence "\end{markd
-own}" on input line 89.
-Package markdown Info: The ending token sequence was found on input line 93.
-Package markdown Info: Including markdown document "dpcv-project.markdown.in" on
- input line 93.
-
-(./_markdown_dpcv-project/9a16bbdc8728c7f50945330a965bb6a2.md.tex
-<dpcv-nyanatusita-2004-001.jpeg, id=108, 1300.86pt x 979.66pt>
-File: dpcv-nyanatusita-2004-001.jpeg Graphic file (type jpg)
-<use dpcv-nyanatusita-2004-001.jpeg>
-Package luatex.def Info: dpcv-nyanatusita-2004-001.jpeg  used on input line 1.
-(luatex.def)             Requested size: 318.67078pt x 239.98143pt.
-) [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./dpcv-nyanatusita-2004-001.
-jpeg>]
-
-LaTeX Font Warning: Font shape `TU/SkolarSansPESb(0)/bx/n' undefined
-(Font)              using `TU/SkolarSansPESb(0)/m/n' instead on input line 97.
-
+\openout6 = dpcv-project-cover-letter.out
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `SkolarSansPESb' (encoding: TU).
+(microtype)             `SkolarSansPE' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-(./dpcv-project.toc
-number indent by \l@... (toc, 1):  0.0pt
-text indent by \l@... (toc, 1):  16.42499pt
-number indent by parent (toc, 1):  0.0pt
-text indent calculated (toc, 1): 15.6366pt
-number indent calculated (toc, 1): 0.0pt
-number indent by \l@... (toc, 1):  0.0pt
-text indent by \l@... (toc, 1):  16.42499pt
-number indent by parent (toc, 1):  0.0pt
-text indent calculated (toc, 1): 15.6366pt
-number indent calculated (toc, 1): 0.0pt
-number indent by \l@... (toc, 2):  16.42499pt
-text indent by \l@... (toc, 2):  25.18501pt
-number indent by parent (toc, 2):  15.6366pt
-text indent calculated (toc, 2): 21.4401pt
-number indent calculated (toc, 2): 15.6366pt
-number indent by \l@... (toc, 2):  16.42499pt
-text indent by \l@... (toc, 2):  25.18501pt
-number indent by parent (toc, 2):  15.6366pt
-text indent calculated (toc, 2): 21.4401pt
-number indent calculated (toc, 2): 15.6366pt
-number indent by \l@... (toc, 1):  0.0pt
-text indent by \l@... (toc, 1):  16.42499pt
-number indent by parent (toc, 1):  0.0pt
-text indent calculated (toc, 1): 15.6366pt
-number indent calculated (toc, 1): 0.0pt
-number indent by \l@... (toc, 1):  0.0pt
-text indent by \l@... (toc, 1):  16.42499pt
-number indent by parent (toc, 1):  0.0pt
-text indent calculated (toc, 1): 15.6366pt
-number indent calculated (toc, 1): 0.0pt
-number indent by \l@... (toc, 1):  0.0pt
-text indent by \l@... (toc, 1):  16.42499pt
-number indent by parent (toc, 1):  0.0pt
-text indent calculated (toc, 1): 15.6366pt
-number indent calculated (toc, 1): 0.0pt
-number indent by \l@... (toc, 1):  0.0pt
-text indent by \l@... (toc, 1):  16.42499pt
-number indent by parent (toc, 1):  0.0pt
-text indent calculated (toc, 1): 15.6366pt
-number indent calculated (toc, 1): 0.0pt
-number indent by \l@... (toc, 1):  0.0pt
-text indent by \l@... (toc, 1):  16.42499pt
-number indent by parent (toc, 1):  0.0pt
-text indent calculated (toc, 1): 15.6366pt
-number indent calculated (toc, 1): 0.0pt
-number indent by \l@... (toc, 1):  0.0pt
-text indent by \l@... (toc, 1):  16.42499pt
-number indent by parent (toc, 1):  0.0pt
-text indent calculated (toc, 1): 15.6366pt
-number indent calculated (toc, 1): 0.0pt
-number indent by \l@... (toc, 1):  0.0pt
-text indent by \l@... (toc, 1):  16.42499pt
-number indent by parent (toc, 1):  0.0pt
-text indent calculated (toc, 1): 15.6366pt
-number indent calculated (toc, 1): 0.0pt
-number indent by \l@... (toc, 2):  16.42499pt
-text indent by \l@... (toc, 2):  25.18501pt
-number indent by parent (toc, 2):  15.6366pt
-text indent calculated (toc, 2): 21.4401pt
-number indent calculated (toc, 2): 15.6366pt
-number indent by \l@... (toc, 2):  16.42499pt
-text indent by \l@... (toc, 2):  25.18501pt
-number indent by parent (toc, 2):  15.6366pt
-text indent calculated (toc, 2): 21.4401pt
-number indent calculated (toc, 2): 15.6366pt
-number indent by \l@... (toc, 2):  16.42499pt
-text indent by \l@... (toc, 2):  25.18501pt
-number indent by parent (toc, 2):  15.6366pt
-text indent calculated (toc, 2): 21.4401pt
-number indent calculated (toc, 2): 15.6366pt
-number indent by \l@... (toc, 2):  16.42499pt
-text indent by \l@... (toc, 2):  25.18501pt
-number indent by parent (toc, 2):  15.6366pt
-text indent calculated (toc, 2): 21.4401pt
-number indent calculated (toc, 2): 15.6366pt
-number indent by \l@... (toc, 2):  16.42499pt
-text indent by \l@... (toc, 2):  25.18501pt
-number indent by parent (toc, 2):  15.6366pt
-text indent calculated (toc, 2): 21.4401pt
-number indent calculated (toc, 2): 15.6366pt
-number indent by \l@... (toc, 2):  16.42499pt
-text indent by \l@... (toc, 2):  25.18501pt
-number indent by parent (toc, 2):  15.6366pt
-text indent calculated (toc, 2): 21.4401pt
-number indent calculated (toc, 2): 15.6366pt
-number indent by \l@... (toc, 2):  16.42499pt
-text indent by \l@... (toc, 2):  25.18501pt
-number indent by parent (toc, 2):  15.6366pt
-text indent calculated (toc, 2): 21.4401pt
-number indent calculated (toc, 2): 15.6366pt
-number indent by \l@... (toc, 2):  16.42499pt
-text indent by \l@... (toc, 2):  25.18501pt
-number indent by parent (toc, 2):  15.6366pt
-text indent calculated (toc, 2): 21.4401pt
-number indent calculated (toc, 2): 15.6366pt
-number indent by \l@... (toc, 1):  0.0pt
-text indent by \l@... (toc, 1):  16.42499pt
-number indent by parent (toc, 1):  0.0pt
-text indent calculated (toc, 1): 15.6366pt
-number indent calculated (toc, 1): 0.0pt
-number indent by \l@... (toc, 1):  0.0pt
-text indent by \l@... (toc, 1):  16.42499pt
-number indent by parent (toc, 1):  0.0pt
-text indent calculated (toc, 1): 15.6366pt
-number indent calculated (toc, 1): 0.0pt
-number indent by \l@... (toc, 2):  16.42499pt
-text indent by \l@... (toc, 2):  25.18501pt
-number indent by parent (toc, 2):  15.6366pt
-text indent calculated (toc, 2): 21.4401pt
-number indent calculated (toc, 2): 15.6366pt
-number indent by \l@... (toc, 2):  16.42499pt
-text indent by \l@... (toc, 2):  25.18501pt
-number indent by parent (toc, 2):  15.6366pt
-text indent calculated (toc, 2): 21.4401pt
-number indent calculated (toc, 2): 15.6366pt
-number indent by \l@... (toc, 2):  16.42499pt
-text indent by \l@... (toc, 2):  25.18501pt
-number indent by parent (toc, 2):  15.6366pt
-text indent calculated (toc, 2): 21.4401pt
-number indent calculated (toc, 2): 15.6366pt
-number indent by \l@... (toc, 1):  0.0pt
-text indent by \l@... (toc, 1):  16.42499pt
-number indent by parent (toc, 1):  0.0pt
-text indent calculated (toc, 1): 15.6366pt
-number indent calculated (toc, 1): 0.0pt
-number indent by \l@... (toc, 1):  0.0pt
-text indent by \l@... (toc, 1):  16.42499pt
-number indent by parent (toc, 1):  0.0pt
-text indent calculated (toc, 1): 15.6366pt
-number indent calculated (toc, 1): 0.0pt
-)
-\tf@toc=\write7
+<bhante-sujato.png, id=4, 764.8575pt x 253.94875pt>
+File: bhante-sujato.png Graphic file (type png)
+<use bhante-sujato.png>
+Package luatex.def Info: bhante-sujato.png  used on input line 110.
+(luatex.def)             Requested size: 135.89174pt x 45.11592pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
+ [1
 
-\openout7 = dpcv-project.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./bhante-sujato.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
 
-\openout5 = dpcv-project.markdown.in
-Package markdown Info: Buffering markdown input into the temporary input file "d
-pcv-project.markdown.in" and scanning for the closing token sequence "\end{markd
-own}" on input line 100.
-Package markdown Info: The ending token sequence was found on input line 532.
-Package markdown Info: Including markdown document "dpcv-project.markdown.in" on
- input line 532.
- (./_markdown_dpcv-project/fc8b52224550063f1221e411f436f2dc.md.tex [2]
-<dpcv-nyanatusita-2004-020.jpeg, id=149, 628.2672pt x 285.4665pt>
-File: dpcv-nyanatusita-2004-020.jpeg Graphic file (type jpg)
-<use dpcv-nyanatusita-2004-020.jpeg>
-Package luatex.def Info: dpcv-nyanatusita-2004-020.jpeg  used on input line 3.
-(luatex.def)             Requested size: 318.67078pt x 144.79756pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 5.
-LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 8.96251pt on input line 5.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `SourceCodePro' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-[3
-Missing character: There is no ʹ (U+02B9) in font SkolarPE:mode=node;script=lat
-n;language=DFLT;+tlig;+onum;!
-Missing character: There is no ʹ (U+02B9) in font SkolarPE:mode=node;script=lat
-n;language=DFLT;+tlig;+onum;!
-<./dpcv-nyanatusita-2004-020.jpeg>] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[][]\TU/SourceCodePro(0)/m/n/9 <[][]$http://gretil.sub.uni-[]goettingen.de/gret
-il/2_pali/3_
- []
-
-
-Overfull \hbox (1.62672pt too wide) in paragraph at lines 26--26
-\TU/SkolarPE(0)/m/n/10.95 Since the manuscript is said to have been spon-sored 
-by King Parākram-
- []
-
-LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/bx/n' will be
-(Font)              scaled to size 10.90437pt on input line 28.
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
-[][]\TU/SourceCodePro(0)/m/n/9 <[][]$http://gretil.sub.uni-[]goettingen.de/gret
-il/2_pali/3_
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
-[][]\TU/SourceCodePro(0)/m/n/9 <[][]$http://gretil.sub.uni-[]goettingen.de/gret
-il/2_pali/3_
- []
-
-
-Overfull \hbox (4.52158pt too wide) in paragraph at lines 30--30
-\TU/SkolarPE(0)/m/n/10.95 stan-dard, in the Dī-pavaṁsa II[] and the Mahā-va
-ṁsa[] the form \TU/SkolarPE(0)/m/it/10.95 parakkam-
- []
-
-[5]
-<khandhaka-structure.png, id=176, 175.3752pt x 72.7518pt>
-File: khandhaka-structure.png Graphic file (type png)
-<use khandhaka-structure.png>
-Package luatex.def Info: khandhaka-structure.png  used on input line 34.
-(luatex.def)             Requested size: 318.67078pt x 132.21861pt.
- [6<./khandhaka-structure.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
-[][]\TU/SourceCodePro(0)/m/n/9 <[][]$http://0-[]www.worldcat.org.novacat.nova.e
-du/identities/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
-[][]\TU/SourceCodePro(0)/m/n/9 <[][]$http://0-[]www.worldcat.org.novacat.nova.e
-du/identities/
- []
-
-
-Overfull \hbox (0.37914pt too wide) in paragraph at lines 44--44
-\TU/SkolarPE(0)/m/n/10.95 the prob-lem of manuscript au-then-tic-ity. Al-most a
-ll of the manuscripts
- []
-
-[7] [8]
-Overfull \hbox (0.67215pt too wide) in paragraph at lines 53--53
-\TU/SkolarPE(0)/m/n/10.95 This of-fers a tran-scrip-tion, de-scrip-tion, and de
--tailed study of a 󰄽th–󰄾th
- []
-
-LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 10.90437pt on input line 54.
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
-[][]\TU/SourceCodePro(0)/m/n/9 <[][]$/related-[]essays/Fernando_Three_Old_Sinha
-lese_
- []
-
-[10]
-Overfull \hbox (7.09146pt too wide) in paragraph at lines 70--71
-\TU/SkolarPE(0)/m/n/10.95 since 󰄶󰄾󰄵󰄶. We have had pre-lim-i-nary di
-s-cus-sions with Mrs. Sanuja
- []
-
-[11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
-[][]\TU/SourceCodePro(0)/m/n/9 <[][]$https://www.publicknowledge.org/files/TPP\
-char`[]%
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-[][]\TU/SourceCodePro(0)/m/n/9 <[][]$https://papers.ssrn.com/sol3/papers.cfm?ab
-stract_id=
- []
-
-<heald-graph.jpg, id=234, 570.55263pt x 308.09842pt>
-File: heald-graph.jpg Graphic file (type jpg)
-<use heald-graph.jpg>
-Package luatex.def Info: heald-graph.jpg  used on input line 96.
-(luatex.def)             Requested size: 318.67078pt x 172.08731pt.
-[14<./heald-graph.jpg>]
-Overfull \hbox (3.29875pt too wide) in paragraph at lines 100--101
-[]\TU/SkolarPE(0)/bx/n/10.95 All text, im-ages, and other re-sources cre-ated b
-y this project
- []
-
-
-Overfull \hbox (1.0978pt too wide) in paragraph at lines 100--101
-\TU/SkolarPE(0)/bx/n/10.95 should be ex-plic-itly ded-i-cated to the Pub-lic Do
--main via Cre-
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
-[][]\TU/SourceCodePro(0)/m/n/9 <[][]$https://github.com/sujato/cullavagga/tree/
-master/
- []
-
-<microfilm-sample.jpeg, id=247, 2617.78pt x 496.85625pt>
-File: microfilm-sample.jpeg Graphic file (type jpg)
-<use microfilm-sample.jpeg>
-Package luatex.def Info: microfilm-sample.jpeg  used on input line 120.
-(luatex.def)             Requested size: 318.67078pt x 60.47687pt.
-<photograph-sample.jpeg, id=248, 2617.78pt x 921.4425pt>
-File: photograph-sample.jpeg Graphic file (type jpg)
-<use photograph-sample.jpeg>
-Package luatex.def Info: photograph-sample.jpeg  used on input line 121.
-(luatex.def)             Requested size: 318.67078pt x 112.1571pt.
-<bad-HPIM4629.jpeg, id=249, 2617.78pt x 469.755pt>
-File: bad-HPIM4629.jpeg Graphic file (type jpg)
-<use bad-HPIM4629.jpeg>
-Package luatex.def Info: bad-HPIM4629.jpeg  used on input line 123.
-(luatex.def)             Requested size: 318.67078pt x 57.17813pt.
-[16] [17<./microfilm-sample.jpeg><./photograph-sample.jpeg><./bad-HPIM4629.jpeg>
-] [18]
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-[][]\TU/SourceCodePro(0)/m/n/9 <[][]$http://www.ansto.gov.au/ResearchHub/OurInf
-rastructure/
- []
-
-[19]
-Overfull \hbox (4.50327pt too wide) in paragraph at lines 151--152
-[]\TU/SkolarPE(0)/bx/n/10.95 Typ-ing to be un-der-taken by a com-mer-cial typ-i
-ng firm, with
- []
-
-[20] [21] [22]
-<dpcv-modules.png, id=291, 907.39pt x 728.7225pt>
-File: dpcv-modules.png Graphic file (type png)
-<use dpcv-modules.png>
-Package luatex.def Info: dpcv-modules.png  used on input line 182.
-(luatex.def)             Requested size: 318.67078pt x 255.92401pt.
-
-Overfull \hbox (8.84973pt too wide) in paragraph at lines 185--185
-[]\TU/SkolarPE(0)/m/n/10.95 Con-sider our source manuscript. It tells us it was
- copied by Sumedha
- []
-
-[23<./dpcv-modules.png>] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-[][]\TU/SourceCodePro(0)/m/n/9 <[][]$https://github.com/sujato/bendall-[]cv/com
-mit/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-[][]\TU/SourceCodePro(0)/m/n/9 <[][]$https://github.com/sujato/bendall-[]cv/gra
-phs/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-[][]\TU/SourceCodePro(0)/m/n/9 <[][]$https://github.com/sujato/bendall-[]cv/gra
-phs/
- []
-
-[25]
-Overfull \hbox (0.19258pt too wide) in paragraph at lines 197--198
-[]\TU/SkolarPE(0)/bx/n/10.95 All dig-i-tal as-sets of the project—in-clud-ing
- text, im-ages, re-
- []
-
-[26
-Missing character: There is no ​ (U+200B) in font SourceCodePro:mode=node;scri
-pt=latn;language=DFLT;!
-] [27] [28]
-<bendall-cv-ms-diff.png, id=326, 449.5194pt x 164.5347pt>
-File: bendall-cv-ms-diff.png Graphic file (type png)
-<use bendall-cv-ms-diff.png>
-Package luatex.def Info: bendall-cv-ms-diff.png  used on input line 231.
-(luatex.def)             Requested size: 318.67078pt x 116.64468pt.
- [29<./bendall-cv-ms-diff.png>]
-Overfull \hbox (10.12529pt too wide) in paragraph at lines 242--243
-\TU/SkolarPE(0)/m/n/10.95 in 󰄶󰄹󰄶󰄷 CE by Maṅ-gala Thera of Sunē-t
-ra Dēvi Pirivena of Pepiliyana.
- []
-
-[30] [31])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 533.
- [32]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 533.
- (./dpcv-project.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 533.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 533.
-Package rerunfilecheck Info: File `dpcv-project.out' has not changed.
-(rerunfilecheck)             Checksum: C37683DF8AD0E1AA8528D15C929979D2;4212.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
+(./dpcv-project-cover-letter.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
+Package rerunfilecheck Info: File `dpcv-project-cover-letter.out' has not change
+d.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 24141 strings out of 494480
- 125171,794899 words of node,token memory allocated
- 1082 words of node memory still in use:
-   9 hlist, 2 vlist, 1 rule, 1 local_par, 2 math, 40 glue, 2 kern, 4 penalty, 1 
-glyph, 53 attribute, 58 glue_spec, 53 attribute_list, 1 write, 13 pdf_action nod
-es
-   avail lists: 2:607,3:201,4:61,5:243,6:2156,7:489,8:110,9:152,10:9,11:162
- 27494 multiletter control sequences out of 65536+600000
- 74 fonts using 18264991 bytes
- 47i,8n,116p,1404b,537s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/share/texlive/texmf-dist/fonts/opentype/adobe/sourcecodepro/SourceCodePro-
-Bold.otf></home/user/.fonts/skolar-all-otf-2018-03-21/SkolarPE-Bold.otf></usr/sh
-are/texlive/texmf-dist/fonts/opentype/adobe/sourcecodepro/SourceCodePro-Regular.
-otf></home/user/.fonts/skolar-all-otf-2018-03-21/SkolarPE-Italic.otf></home/user
-/.fonts/skolar-all-otf-2018-03-21/SkolarSansPE-Sb.otf></home/user/.fonts/skolar-
-all-otf-2018-03-21/SkolarPE-Regular.otf>
-Output written on dpcv-project.pdf (32 pages, 2353497 bytes).
+ 24130 strings out of 494480
+ 125171,662416 words of node,token memory allocated
+ 651 words of node memory still in use:
+   10 hlist, 2 vlist, 1 rule, 1 local_par, 2 math, 10 glue, 2 kern, 4 penalty, 2
+ glyph, 11 attribute, 60 glue_spec, 11 attribute_list, 1 write nodes
+   avail lists: 1:1,2:90,3:30,4:20,5:257,6:2224,7:477,8:4,9:63,10:6,11:182
+ 27616 multiletter control sequences out of 65536+600000
+ 60 fonts using 15739343 bytes
+ 47i,5n,116p,891b,342s stack positions out of 5000i,500n,10000p,200000b,100000s
+</home/user/.fonts/skolar-all-otf-2018-03-21/SkolarPE-Italic.otf></home/user/.fo
+nts/skolar-all-otf-2018-03-21/SkolarSansPE-It.otf></home/user/.fonts/skolar-all-
+otf-2018-03-21/SkolarPE-Regular.otf>
+Output written on dpcv-project-cover-letter.pdf (1 page, 90913 bytes).
 
-PDF statistics: 395 PDF objects out of 1000 (max. 8388607)
- 327 compressed objects within 4 object streams
- 69 named destinations out of 1000 (max. 131072)
- 209 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 36 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
+ 2 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

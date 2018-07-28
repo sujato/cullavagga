@@ -3,24 +3,24 @@
 \contentsline {subsection}{\numberline {2.1}Naming the manuscript}{5}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Naming the chapters}{6}{subsection.2.2}
 \contentsline {section}{\numberline {3}Background}{7}{section.3}
-\contentsline {section}{\numberline {4}Literature Review}{9}{section.4}
-\contentsline {section}{\numberline {5}Who is involved}{10}{section.5}
-\contentsline {section}{\numberline {6}Funding}{11}{section.6}
+\contentsline {section}{\numberline {4}Literature Review}{10}{section.4}
+\contentsline {section}{\numberline {5}Who is involved}{11}{section.5}
+\contentsline {section}{\numberline {6}Funding}{12}{section.6}
 \contentsline {section}{\numberline {7}Licensing}{12}{section.7}
 \contentsline {section}{\numberline {8}How to proceed}{15}{section.8}
 \contentsline {section}{\numberline {9}Task modules}{15}{section.9}
-\contentsline {subsection}{\numberline {9.1}Physically examine the manuscript}{15}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.1}Physically examine the manuscript}{16}{subsection.9.1}
 \contentsline {subsection}{\numberline {9.2}Scan the manuscript}{16}{subsection.9.2}
 \contentsline {subsection}{\numberline {9.3}Engage an epigraphic expert to assess the script}{18}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}Carbon date the manuscript}{18}{subsection.9.4}
-\contentsline {subsection}{\numberline {9.5}Have the manuscript typed and proofread}{19}{subsection.9.5}
+\contentsline {subsection}{\numberline {9.4}Carbon date the manuscript}{19}{subsection.9.4}
+\contentsline {subsection}{\numberline {9.5}Have the manuscript typed and proofread}{20}{subsection.9.5}
 \contentsline {subsection}{\numberline {9.6}Publish digitally and in print}{21}{subsection.9.6}
-\contentsline {subsection}{\numberline {9.7}Academic documentation}{21}{subsection.9.7}
+\contentsline {subsection}{\numberline {9.7}Academic documentation}{22}{subsection.9.7}
 \contentsline {subsection}{\numberline {9.8}Publicity and popular awareness}{22}{subsection.9.8}
 \contentsline {section}{\numberline {10}Flow for completing each module}{22}{section.10}
-\contentsline {section}{\numberline {11}Digital Strategy}{22}{section.11}
-\contentsline {subsection}{\numberline {11.1}Use Github for all assets}{24}{subsection.11.1}
+\contentsline {section}{\numberline {11}Digital Strategy}{23}{section.11}
+\contentsline {subsection}{\numberline {11.1}Use Github for all assets}{25}{subsection.11.1}
 \contentsline {subsection}{\numberline {11.2}Segmenting the text}{26}{subsection.11.2}
-\contentsline {subsection}{\numberline {11.3}Text input}{27}{subsection.11.3}
+\contentsline {subsection}{\numberline {11.3}Text input}{28}{subsection.11.3}
 \contentsline {section}{\numberline {12}Beyond this project}{30}{section.12}
 \contentsline {section}{\numberline {13}Bibliography}{31}{section.13}

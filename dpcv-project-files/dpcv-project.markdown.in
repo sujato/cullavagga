@@ -1,5 +1,6 @@
 
 
+
 # Introduction
 
 In the National Museum of Colombo there rests one of the oldest, and arguably most important, Pali manuscripts found anywhere in the world. It contains the Cullavagga, which consists of chapters 11–22 of the *Khandhaka* portion of the Pali Vinaya.
@@ -8,7 +9,7 @@ In the National Museum of Colombo there rests one of the oldest, and arguably mo
 
 The sign accompanying the exhibit identifies it as object number NM-2995 69L1. The manuscript consists of 143 palm leaves in good preservation. It was acquired by the National Museum on the recommendation of Senarath Paranavitana, who made the initial identification of the king with Dutiya-Parakkamabāhu. The cover of the book is wood painted with depictions of deities, in a style similar to those of the Polonnaruva period. For further details one is referred to H.C.R. Bell, Annual Report 1901, Department of Archaeology.
 
-The manuscript itself includes a note ([HPIM4634](/images/dpcv-microfilm/HPIM4634.jpeg), [HPIM4635](/images/dpcv-microfilm/HPIM4635.jpeg)) to the effect that the manuscript consists of 144 leaves, sized 23" x 2 ¼". It was purchased for Rs 1000 along with 38 other manuscripts from the late Mr. H.C.P. Bell’s estate on 12/1/1938.
+The manuscript itself includes a note ([HPIM4634](/images/dpcv-microfilm/HPIM4634.jpeg), [HPIM4635](/images/dpcv-microfilm/HPIM4635.jpeg)) to the effect that the manuscript consists of 144 leaves, sized 23ʹ×2 ¼ʹ. It was purchased for Rs 1000 along with 38 other manuscripts from the late Mr. H.C.P. Bell’s estate on 12/1/1938.
 
 The colophon in the manuscript says that it was copied during the reign of Parākramabāhu, identified as the second of that name, which would place it in the 13th century. This makes it probably the oldest manuscript in Sri Lanka, and one of the oldest in the world. The only older published Pali manuscript I am aware of is from Nepal, dated to the 8th or 9th century, and consisting of a few pages, coincidentally, also of the Cullavagga.
 
@@ -35,6 +36,10 @@ The aim of the project is to make available to scholars internationally the cont
 - Publicize the project in popular awareness.
 
 To accomplish this will require the cooperation and goodwill of scholars, governmental organizations, and universities.
+
+I wish to emphasize that I have no experience in dealing with manuscripts, and have no authority in the field. I am simply a monk who has studied Pali and Buddhism. However, for the past 15 years I have run a website called SuttaCentral, which handles over 70,000 Buddhist texts in over 40 languages. Hence I have considerable experience in managing digital texts, so have described the digitization process in some detail.
+
+Everything in this document is simply an initial proposal, and feedback and criticism is welcomed. I would invite all those interested in this project to consider my proposals, and work together to improve them. This is an evolving document, and we will expand and correct it as the project develops.
 
 # Some details and terminology
 
@@ -86,7 +91,7 @@ While we are not prepared to undertake the more wide-scale digital preservation 
 
 One of the few early Pali texts in existence was studied and published by Oskar von Hinüber in his *[The Oldest Buddhist Manuscript](/related-essays/Hinuber_Oldest_Pali_Manuscript.pdf)*. This offers a transcription, description, and detailed study of a 8th–9th century Pali manuscript from Nepal by a leading Indological philologist. Von Hinüber suggests that it may have derived from a branch monastery of the Mahāvihāra on the mainland, possibly at Bodhgaya.
 
-As it happens, the text itself, while only a few pages, is from the Cullavagga. Thus it is a small portion of the same text found in the DP-CV, and when the DP-CV is published it will enable a study of the  same passage in manuscripts of the 8th, 13th, and 18th centuries. SuttaCentral has completed a digitization of this text, which we have named the Bendall Cullavagga (`bendall-cv`), which can be [viewed on Github]](https://github.com/sujato/bendall-cv). This was intended as a pilot project to test and demonstrate some of the methods we are proposing for DC-CV.
+As it happens, the text itself, while only a few pages, is from the Cullavagga. Thus it is a small portion of the same text found in the DP-CV, and when the DP-CV is published it will enable a study of the  same passage in manuscripts of the 8th, 13th, and 18th centuries. SuttaCentral has completed a digitization of this text, which we have named the Bendall Cullavagga (`bendall-cv`), which can be [viewed on Github](https://github.com/sujato/bendall-cv). This was intended as a pilot project to test and demonstrate some of the methods we are proposing for DC-CV.
 
 When reading Pali texts in modern editions, it is quite evident that a process that might loosely be called “Sanskritization” has taken place. We frequently see spelling variations even in common words, such as *supaṭipanna* vs. *suppaṭipanna*, *viriya* vs. *vīriya*, or *byākaraṇa* vs. *vyākaraṇa*. It is generally believed that this process occurred under the influence of medieval grammars such as the Saddanīti, which were based on the Sanskrit grammars. In most cases the spelling variants are inconsequential, and no more affect the meaning than, say, the choice to use UK or American spelling for English. Nevertheless, there are some cases where variant readings can affect the meaning of a passage. Thus it is important for scholars to study the nature of these changes, which can only be rigorously understood through studying early manuscripts or inscriptions.
 
@@ -104,11 +109,15 @@ Fernando discusses the colophon, which poses a number of problems of interpretat
 
 # Who is involved
 
-A project such as this requires a variety of specialized technical skills and equipment, and can only be accomplished through the cooperation of several parties. We will endeavor to work together with all parties who have an interest in the matter. Here is a preliminary note on relevant parties so far. Note that this is merely a record of initial meetings and does not imply that these people or organizations have made any commitment to the project.
+A project such as this requires a variety of specialized technical skills and equipment, and can only be accomplished through the cooperation of several parties. We will endeavor to work together with all parties who have an interest in the matter.
+
+I propose that a Memorandum of Understanding (MoU) be signed by the major parties involved in this project.
+
+Here is a preliminary note on relevant parties so far. Note that this is merely a record of initial meetings and does not imply that these people or organizations have made any commitment to the project.
 
 1. **Sri Lankan Department of Archaeology**: The Department of Archaeology is the owner of the manuscript, and the governmental institution most directly concerned with preserving and making available Sri Lanka’s ancient culture. We have had a preliminary meeting with Prasanna Ratnayake, the Acting Director General. He indicated that the Dept. would support this project, and may assist in various technical areas.
 
-2. **National Museum of Colombo**:  The manuscript has been housed here since 1901. We have had preliminary discussions with Mrs. Sanuja Kasthuriarachchi, the Acting Director of the Museum.
+2. **National Museum of Colombo**:  The home of the manuscript since 1901. We have had preliminary discussions with Mrs. Sanuja Kasthuriarachchi, the Acting Director of the Museum.
 
 3. **Sri Lankan Ministry of Buddhasasana**:  We have met with Prof. Nimal de Silva, adviser to the Minister, who greeted our project favorably.
 
@@ -150,9 +159,9 @@ The last paper includes a particularly telling graphic. Works published before a
 
 ![alt text](heald-graph.jpg "The effects of copyright")
 
-I have repeatedly encountered such difficulties in dealing with works on SuttaCentral. It is unfortunately common in the field for works to be published under restrictive licenses, even in cases where such licenses have no legal standing. Unclear licensing can be just as destructive. To give an example from Sri Lanka, when seeking to publish the Buddha Jayanthi translation of the Pali Tipiṭaka, I was advised *not* to ask for permission, as no-one would take responsibility for it. Eventually we decided to use another translation.
+I have repeatedly encountered such difficulties in dealing with works on SuttaCentral. It is unfortunately common in the field for works to be published under restrictive licenses, even in cases where such licenses have no legal standing. Unclear licensing can be just as destructive. To give an example from Sri Lanka, when seeking to publish the Buddha Jayanthi translation of the Pali Tipiṭaka, I was advised *not* to ask for permission, as there was no clear path towards gaining permission. Eventually we decided to use another translation.
 
-This whole situation is unnecessary. No-one creates Pali editions motivated by profit, so there is no reason to apply a license. The Buddha intended his teaching to be freely available for all humanity, and we should follow his example.
+This whole situation is unnecessary. No-one creates Pali editions motivated by profit, so there is no reason to apply a license. The Buddha was right: making the teachings freely available for all creates the greatest benefit for the greatest number, and helps ensure the survival and spread of the teachings. We should follow his example.
 
 > **All text, images, and other resources created by this project should be explicitly dedicated to the Public Domain via Creative Commons Zero (CC0).**
 

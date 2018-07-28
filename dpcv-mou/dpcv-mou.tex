@@ -1,0 +1,157 @@
+
+\documentclass[11pt, openany,a4paper]{article}
+\usepackage[footnotes]{markdown}
+%PACKAGES%
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{letterspace}
+\usepackage{sectsty}
+\usepackage{enumitem}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[]{tocstyle}
+\usepackage[unicode, hyperfootnotes=false, hyperindex=true,colorlinks=true, urlcolor=black, linkcolor=black, citecolor=black, pdfauthor={Bhikkhu Sujato}, pdftitle={Memorandum of Understanding: Digitizing the Dutiya-Parakkamabāhu Cullavagga}, pdfsubject={Buddhism}, pdfkeywords={Buddhism, Sūtras, tipitaka, texts}, pdfproducer={LuaTeX beta-0.70.1}, pdfcreator={LaTeX2e}]{hyperref} %ACTIVE LINKS FOR PDF AND\,ADDS METADATA%
+%PACKAGES%
+\usepackage{multicol}
+
+
+
+%LINESPACE%
+\usepackage{setspace}
+\setstretch{1.12}
+\setlength{\parskip}{0pt}
+%LINESPACE%
+
+%MICROTYPOGRAPHY%
+\usepackage{microtype}
+\frenchspacing
+%MICROTYPOGRAPHY%
+
+\setmainfont[Numbers=OldStyle,BoldFont={Skolar PE Bold}]{Skolar PE}
+\setsansfont[Numbers=OldStyle,BoldFont={Skolar Sans PE-Bd}]{Skolar Sans PE}
+\setmonofont[Scale=MatchLowercase]{Source Code Pro}
+\newfontfamily\Secfont{Skolar Sans PE Sb}
+\sectionfont{\Secfont}
+\subsectionfont{\Secfont}
+
+
+\settocstylefeature[]{leaders}{\hfill}%ELIMINATES DOTS%
+\settocstylefeature[0]{entryvskip}{0.9em}%VERTICAL SPACE
+
+
+
+\setlist{noitemsep}
+
+\widowpenalty=5000
+\clubpenalty=5000
+
+
+
+%DOCUMENT\,INFO. NOT\,USED\,IN\,TEXT.%
+\title{Memorandum of Understanding: Digitizing the Dutiya-Parakkamabāhu Cullavagga}
+\author{}
+\date{November 8 2018}
+%DOCUMENT\,INFO. NOT\,USED\,IN\,TEXT.%
+\setkeys{Gin}{width=\linewidth}
+\markdownSetup{renderers={
+  image = {\begin{figure}[hbt!]
+    \centering
+    \includegraphics{#3}%
+    \ifx\empty#4\empty\else
+    \caption{#4}%
+    \fi
+    \label{fig:#1}%
+    \end{figure}}
+}}
+
+\setkeys{Gin}{width=11.2cm}
+
+\makeatletter
+\renewenvironment{quotation}
+           {\list{}{\listparindent 1.5em%
+                    %\itemindent    \listparindent
+                    %\rightmargin \leftmargin
+                    \parsep        \z@ \@plus\p@}%
+            \item\relax}
+           {\endlist}
+\makeatother
+
+
+\begin{document}
+
+
+
+\maketitle
+
+\thispagestyle{empty}
+\begin{markdown}
+
+
+The Dutiya-Parakkamabāhu Cullavagga (DP-CV) is a 13th century Pali Buddhist manuscript curated by the National Museum of Colombo, and owned by the Sri Lankan Department of Archaeology. It is the oldest, and arguably most important, Pali manuscript in Sri Lanka.
+
+Bhante Sujato of SuttaCentral has proposed a project to digitize this text, described in the document “Dutiya-Parakkamabāhu Cullavagga Transcription Project”. The primary aims of the project are:
+
+- Review the manuscript to ascertain the state of preservation.
+
+- Scan the manuscript into high-resolution images.
+
+- Engage an epigraphic expert to assess the script.
+
+- Carbon date the manuscript.
+
+- Have the manuscript carefully typed and proofread.
+
+- Publish digitally and in print.
+
+- Document the project in academic journals and conferences.
+
+- Publicize the project in popular awareness.
+
+The project is a partnership between the following:
+
+- National Museum of Colombo
+
+- Sri Lankan Department of Archaeology
+
+- University of Sri Jayawardenepura
+
+- SuttaCentral
+
+The partners undertake to work together to successfully complete the digitization of the DP-CV, so that this unique text can be available to scholars and students of Buddhism throughout the world.
+
+\end{markdown}
+
+\begin{multicols}{2}
+\begin{center}
+[*Signature*]
+
+National Museum of Colombo
+
+\bigskip
+
+[*Signature*]
+
+Sri Lankan Department of Archaeology
+
+
+
+[*Signature*]
+
+University of Sri Jayawardenepura
+
+\bigskip
+
+[*Signature*]
+
+Bhante Sujato, SuttaCentral
+
+
+\end{center}
+\end{multicols}
+
+
+
+
+\end{document}
