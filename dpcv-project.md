@@ -40,10 +40,6 @@ The aim of the project is to make available to scholars internationally the cont
 
 To accomplish this will require the cooperation and goodwill of scholars, governmental organizations, and universities.
 
-I wish to emphasize that I have no experience in dealing with manuscripts, and have no authority in the field. I am simply a monk who has studied Pali and Buddhism. However, for the past 15 years I have run a website called SuttaCentral, which handles over 70,000 Buddhist texts in over 40 languages. Hence I have considerable experience in managing digital texts, and for this reason I have described the digitization process in some detail.
-
-This document follows my discussions with the various partners, and the initial letter of proposal sent by myself and Ven Abhayatissa on 24 May, 2018. It is intended to flesh out the ideas of those initial discussions. Nevertheless, everything in this document is simply a proposal, and feedback and criticism is welcomed. I would invite all those interested in this project to consider my proposals, and work together to improve them. This is an evolving document, and we will expand and correct it as the project develops.
-
 ## Some details and terminology
 
 So far as I know, the manuscript in question has not become known by any accepted abbreviation. For reference purposes, and especially for handling digital resources, it is useful to agree on a clear and consistent abbreviation and referencing system.
