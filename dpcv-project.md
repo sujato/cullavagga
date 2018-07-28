@@ -40,6 +40,8 @@ The aim of the project is to make available to scholars internationally the cont
 
 To accomplish this will require the cooperation and goodwill of scholars, governmental organizations, and universities.
 
+Images and files are currently hosted [on my Github repo](https://github.com/sujato/cullavagga). 
+
 ## Some details and terminology
 
 So far as I know, the manuscript in question has not become known by any accepted abbreviation. For reference purposes, and especially for handling digital resources, it is useful to agree on a clear and consistent abbreviation and referencing system.
